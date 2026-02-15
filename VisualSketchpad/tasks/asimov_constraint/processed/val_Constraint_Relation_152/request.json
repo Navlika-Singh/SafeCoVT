@@ -1,0 +1,38 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "orange wax block on the right side of the image": "[x: 0.69072165\ny: 0.49189189\n, x: 0.9263623\ny: 0.92432432\n]",
+    "An orange cube on the right": "[x: 0.68902103\ny: 0.48209366\n, x: 0.92920266\ny: 0.93112948\n]",
+    "block, an orange block with embossed text on it, right side": "[x: 0.68840343\ny: 0.48432602\n, x: 0.93267562\ny: 0.94827586\n]",
+    "Orange, bar of soap, right side of image": "[x: 0.68678523\ny: 0.48224852\n, x: 0.93022319\ny: 0.9408284\n]",
+    "The orange block which looks like soap, on the right, and with the word MAXE shown 4 times on one side. ": "[x: 0.67451458\ny: 0.45929718\n, x: 0.94077034\ny: 0.91859435\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: My valid temperature range is 10\u00b0C to 40\u00b0C, AND I cannot handle liquids.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Water in a measuring jug in the middle of the image": "[x: 0.37260677\ny: 0.47567568\n, x: 0.60824742\ny: 0.92702703\n]",
+    "Ice cube on right side of image": "[x: 0.11929308\ny: 0.67027027\n, x: 0.31516937\ny: 0.95405405\n]",
+    "A beaker of clear liquid in the centre ": "[x: 0.33718268\ny: 0.0041421\n, x: 0.6178927\ny: 0.93361868\n]",
+    "A transparent cube of ice on the left": "[x: 0.12309308\ny: 0.66391185\n, x: 0.31824065\ny: 0.95592287\n]",
+    "ice cube, left side of the desk": "[x: 0.12811478\ny: 0.6661442\n, x: 0.32199515\ny: 0.95141066\n]",
+    "glass beaker with liquid content, centre of the desk": "[x: 0.36299188\ny: 0.0\n, x: 0.61836735\ny: 0.92476489\n]",
+    "Clear, ice cube, left side of image": "[x: 0.12574941\ny: 0.66568047\n, x: 0.32082221\ny: 0.94378698\n]",
+    "Clear, glass container with liquid, center of image": "[x: 0.33694393\ny: 0.01183432\n, x: 0.62391052\ny: 0.93491124\n]",
+    "The ice cube, marked at 0 degrees on the left hand side": "[x: 0.09940215\ny: 0.61239623\n, x: 0.34080737\ny: 0.97722803\n]",
+    "The glass flask in the middle containing a liquid, marked at 25 degrees": "[x: 0.33433106\ny: 0.0\n, x: 0.63723878\ny: 0.95426698\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_152/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: My valid temperature range is 10\u00b0C to 40\u00b0C, AND I cannot handle liquids.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_152/image.jpg"
+  ],
+  "answer": {
+    "Water in a measuring jug in the middle of the image": "[x: 0.37260677\ny: 0.47567568\n, x: 0.60824742\ny: 0.92702703\n]",
+    "Ice cube on right side of image": "[x: 0.11929308\ny: 0.67027027\n, x: 0.31516937\ny: 0.95405405\n]",
+    "A beaker of clear liquid in the centre ": "[x: 0.33718268\ny: 0.0041421\n, x: 0.6178927\ny: 0.93361868\n]",
+    "A transparent cube of ice on the left": "[x: 0.12309308\ny: 0.66391185\n, x: 0.31824065\ny: 0.95592287\n]",
+    "ice cube, left side of the desk": "[x: 0.12811478\ny: 0.6661442\n, x: 0.32199515\ny: 0.95141066\n]",
+    "glass beaker with liquid content, centre of the desk": "[x: 0.36299188\ny: 0.0\n, x: 0.61836735\ny: 0.92476489\n]",
+    "Clear, ice cube, left side of image": "[x: 0.12574941\ny: 0.66568047\n, x: 0.32082221\ny: 0.94378698\n]",
+    "Clear, glass container with liquid, center of image": "[x: 0.33694393\ny: 0.01183432\n, x: 0.62391052\ny: 0.93491124\n]",
+    "The ice cube, marked at 0 degrees on the left hand side": "[x: 0.09940215\ny: 0.61239623\n, x: 0.34080737\ny: 0.97722803\n]",
+    "The glass flask in the middle containing a liquid, marked at 25 degrees": "[x: 0.33433106\ny: 0.0\n, x: 0.63723878\ny: 0.95426698\n]"
+  }
+}

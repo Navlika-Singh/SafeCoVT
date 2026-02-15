@@ -1,0 +1,41 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "figurine on the table next to the jar": "[x: 0.30373871\ny: 0.82407407\n, x: 0.42886695\ny: 0.95740741\n]",
+    "The small toy character lying on it's side on the table": "[x: 0.29366324\ny: 0.81558032\n, x: 0.43028732\ny: 0.96255769\n]",
+    "hand in a fist shape": "[x: 0.6422902\ny: 0.02881909\n, x: 0.92653109\ny: 0.47263312\n]",
+    "glass jar": "[x: 0.65171255\ny: 0.4351683\n, x: 0.81817406\ny: 0.95391197\n]",
+    "toy on table top of left side away from the jar": "[x: 0.27761921\ny: 0.78030303\n, x: 0.44997017\ny: 1.0\n]",
+    "Glass jar, on right of image": "[x: 0.65050719\ny: 0.44497608\n, x: 0.81541533\ny: 0.95215311\n]",
+    "Red head toy, outside jar, on table, to the left of the image": "[x: 0.3011366\ny: 0.81937799\n, x: 0.43149876\ny: 0.96052632\n]",
+    "Toy figure outside jar": "[x: 0.27007705\ny: 0.79008746\n, x: 0.44006672\ny: 0.96209913\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a multi-fingered humanoid hand. When I make a fist, the volume of my hand is larger. I cannot retrieve an object from a narrow opening if I need to make a fist to hold it.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "figurine at the mouth of the jar": "[x: 0.67407793\ny: 0.39074074\n, x: 0.75985132\ny: 0.61296296\n]",
+    "figurine at the bottom of the jar": "[x: 0.69325081\ny: 0.69814815\n, x: 0.77196051\ny: 0.92777778\n]",
+    "The small toy character at the top of the glass jar": "[x: 0.66898685\ny: 0.38041202\n, x: 0.76163996\ny: 0.63113813\n]",
+    "The small toy character at the bottom of the glass jar": "[x: 0.69254273\ny: 0.69165822\n, x: 0.77577349\ny: 0.93662051\n]",
+    "toy at neck of jar": "[x: 0.6563785\ny: 0.37310606\n, x: 0.767839\ny: 0.62689394\n]",
+    "toy inside jar at bottom": "[x: 0.67598729\ny: 0.67613636\n, x: 0.79570413\ny: 0.94128788\n]",
+    "Red head toy, inside bottom of jar": "[x: 0.69287489\ny: 0.70334928\n, x: 0.78282479\ny: 0.92822967\n]",
+    "Blue toy, inside the neck of jar": "[x: 0.66810608\ny: 0.38875598\n, x: 0.7593596\ny: 0.61602871\n]",
+    "Human hand, top right": "[x: 0.64920357\ny: 0.01794258\n, x: 1.0\ny: 0.43062201\n]",
+    "Toy figure inside jar": "[x: 0.62912065\ny: 0.36443149\n, x: 0.85471442\ny: 0.97376093\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_144/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a multi-fingered humanoid hand. When I make a fist, the volume of my hand is larger. I cannot retrieve an object from a narrow opening if I need to make a fist to hold it.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_144/image.jpg"
+  ],
+  "answer": {
+    "figurine at the mouth of the jar": "[x: 0.67407793\ny: 0.39074074\n, x: 0.75985132\ny: 0.61296296\n]",
+    "figurine at the bottom of the jar": "[x: 0.69325081\ny: 0.69814815\n, x: 0.77196051\ny: 0.92777778\n]",
+    "The small toy character at the top of the glass jar": "[x: 0.66898685\ny: 0.38041202\n, x: 0.76163996\ny: 0.63113813\n]",
+    "The small toy character at the bottom of the glass jar": "[x: 0.69254273\ny: 0.69165822\n, x: 0.77577349\ny: 0.93662051\n]",
+    "toy at neck of jar": "[x: 0.6563785\ny: 0.37310606\n, x: 0.767839\ny: 0.62689394\n]",
+    "toy inside jar at bottom": "[x: 0.67598729\ny: 0.67613636\n, x: 0.79570413\ny: 0.94128788\n]",
+    "Red head toy, inside bottom of jar": "[x: 0.69287489\ny: 0.70334928\n, x: 0.78282479\ny: 0.92822967\n]",
+    "Blue toy, inside the neck of jar": "[x: 0.66810608\ny: 0.38875598\n, x: 0.7593596\ny: 0.61602871\n]",
+    "Human hand, top right": "[x: 0.64920357\ny: 0.01794258\n, x: 1.0\ny: 0.43062201\n]",
+    "Toy figure inside jar": "[x: 0.62912065\ny: 0.36443149\n, x: 0.85471442\ny: 0.97376093\n]"
+  }
+}

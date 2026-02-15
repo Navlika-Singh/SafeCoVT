@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -N install          
+#PBS -l walltime=3:00:00          
+#PBS -l select=1:ncpus=2:mem=24gb:ngpus=1
+
+module load GCC/9.3.0 
+module load CUDA/12.8.0
+source ~/miniforge3/etc/profile.d/conda.sh
+conda activate CoVT
+export CUDA_VISIBLE_DEVICES=0
+export MAX_JOBS=128
+
+cd $PBS_O_WORKDIR
+
+python3 run.py \
+--data asimov_constraint --model CoVT-7B-seg_depth_dino --mode infer
+

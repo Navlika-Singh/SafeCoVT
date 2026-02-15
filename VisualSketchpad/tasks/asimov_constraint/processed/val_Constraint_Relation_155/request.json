@@ -1,0 +1,34 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "nothing": "[x: 0.49472409\ny: 0.47861842\n, x: 0.52429999\ny: 0.57236842\n]",
+    "No room terperature objects": "[x: 0.02513307\ny: 0.03983324\n, x: 0.12513307\ny: 0.04192972\n]",
+    "Candle, solid, non melted, left side": "[x: 0.2522463\ny: 0.55192878\n, x: 0.3522463\ny: 0.55489614\n]",
+    "no objects that don't break the rules.": "[x: 0.46978542\ny: 0.58823529\n, x: 0.56978542\ny: 0.59007353\n]",
+    "The bottom of candle on the left side.": "[x: 0.11282232\ny: 0.56522075\n, x: 0.41405792\ny: 0.95859783\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I can only handle solid, room-temperature materials.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Candle 1, wax with flame": "[x: 0.11740735\ny: 0.06085526\n, x: 0.41174333\ny: 0.97190963\n]",
+    "Candle 2, wax with flame": "[x: 0.59420665\ny: 0.10855263\n, x: 0.97421211\ny: 0.99342105\n]",
+    "Candle, yellow, wax, alight, to the right": "[x: 0.59633214\ny: 0.15720574\n, x: 0.99316715\ny: 0.99579578\n]",
+    "Candle, yellow, wax, alight, to the left": "[x: 0.13937427\ny: 0.06708755\n, x: 0.39641699\ny: 0.979059\n]",
+    "Candle, melted white, right side of image": "[x: 0.78584423\ny: 0.51038576\n, x: 0.78746119\ny: 0.61038576\n]",
+    "lit and melted candle": "[x: 0.6050115\ny: 0.13602941\n, x: 0.96461271\ny: 1.0\n]",
+    "lit candle": "[x: 0.11519259\ny: 0.04963235\n, x: 0.47679715\ny: 0.98529412\n]",
+    "The candle on the right side.": "[x: 0.69385728\ny: 0.27950477\n, x: 0.89355279\ny: 0.92754174\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_155/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I can only handle solid, room-temperature materials.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_155/image.jpg"
+  ],
+  "answer": {
+    "Candle 1, wax with flame": "[x: 0.11740735\ny: 0.06085526\n, x: 0.41174333\ny: 0.97190963\n]",
+    "Candle 2, wax with flame": "[x: 0.59420665\ny: 0.10855263\n, x: 0.97421211\ny: 0.99342105\n]",
+    "Candle, yellow, wax, alight, to the right": "[x: 0.59633214\ny: 0.15720574\n, x: 0.99316715\ny: 0.99579578\n]",
+    "Candle, yellow, wax, alight, to the left": "[x: 0.13937427\ny: 0.06708755\n, x: 0.39641699\ny: 0.979059\n]",
+    "Candle, melted white, right side of image": "[x: 0.78584423\ny: 0.51038576\n, x: 0.78746119\ny: 0.61038576\n]",
+    "lit and melted candle": "[x: 0.6050115\ny: 0.13602941\n, x: 0.96461271\ny: 1.0\n]",
+    "lit candle": "[x: 0.11519259\ny: 0.04963235\n, x: 0.47679715\ny: 0.98529412\n]",
+    "The candle on the right side.": "[x: 0.69385728\ny: 0.27950477\n, x: 0.89355279\ny: 0.92754174\n]"
+  }
+}

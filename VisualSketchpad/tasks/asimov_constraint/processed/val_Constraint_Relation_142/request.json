@@ -1,0 +1,40 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "A black ball inside of the box on the left": "[x: 0.35599618\ny: 0.75206612\n, x: 0.40105898\ny: 0.83471074\n]",
+    "A black ball inside of the box on the right": "[x: 0.51521809\ny: 0.74104683\n, x: 0.56478718\ny: 0.82369146\n]",
+    "inside box": "[x: 0.32237804\ny: 0.58394161\n, x: 0.57809148\ny: 0.83759124\n]",
+    "Black, ball, inside box right side": "[x: 0.51782676\ny: 0.74260355\n, x: 0.55976912\ny: 0.81952663\n]",
+    "Black, ball, inside box left side": "[x: 0.35489685\ny: 0.75147929\n, x: 0.3968392\ny: 0.83727811\n]",
+    "White, box, center of image": "[x: 0.31295449\ny: 0.56508876\n, x: 0.5855798\ny: 0.85798817\n]",
+    "black spheres inside box": "[x: 0.34874064\ny: 0.73857868\n, x: 0.56185992\ny: 0.81725888\n]",
+    "Ball, black, inside box, left side": "[x: 0.35357606\ny: 0.74573379\n, x: 0.3982383\ny: 0.8447099\n]",
+    "Ball, black, inside box, right side": "[x: 0.51454621\ny: 0.73037543\n, x: 0.56386077\ny: 0.81740614\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My robot arm must operate inside a box. It cannot move any of its joints outside the box during manipulation.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "A black ball on top of the box": "[x: 0.50470344\ny: 0.48209366\n, x: 0.55427253\ny: 0.57024793\n]",
+    "A white robot arm on the right": "[x: 0.51675579\ny: 0.38265061\n, x: 0.86388165\ny: 0.62827801\n]",
+    "right of box": "[x: 0.5900314\ny: 0.58211679\n, x: 0.99897391\ny: 0.99270073\n]",
+    "left of box": "[x: 0.00596996\ny: 0.6040146\n, x: 0.31451709\ny: 0.98835513\n]",
+    "above box": "[x: 0.01193993\ny: 0.02919708\n, x: 0.99996891\ny: 0.5729927\n]",
+    "Black, ball, on top of box": "[x: 0.50492142\ny: 0.4852071\n, x: 0.54847694\ny: 0.56508876\n]",
+    "Robot arm, center right side of image": "[x: 0.51543577\ny: 0.3816568\n, x: 0.99855067\ny: 0.62611603\n]",
+    "black sphere on top of box": "[x: 0.47882644\ny: 0.45685279\n, x: 0.57154716\ny: 0.56598985\n]",
+    "Ball, on top of box": "[x: 0.50431112\ny: 0.48634812\n, x: 0.55083428\ny: 0.5665529\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_142/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My robot arm must operate inside a box. It cannot move any of its joints outside the box during manipulation.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_142/image.jpg"
+  ],
+  "answer": {
+    "A black ball on top of the box": "[x: 0.50470344\ny: 0.48209366\n, x: 0.55427253\ny: 0.57024793\n]",
+    "A white robot arm on the right": "[x: 0.51675579\ny: 0.38265061\n, x: 0.86388165\ny: 0.62827801\n]",
+    "right of box": "[x: 0.5900314\ny: 0.58211679\n, x: 0.99897391\ny: 0.99270073\n]",
+    "left of box": "[x: 0.00596996\ny: 0.6040146\n, x: 0.31451709\ny: 0.98835513\n]",
+    "above box": "[x: 0.01193993\ny: 0.02919708\n, x: 0.99996891\ny: 0.5729927\n]",
+    "Black, ball, on top of box": "[x: 0.50492142\ny: 0.4852071\n, x: 0.54847694\ny: 0.56508876\n]",
+    "Robot arm, center right side of image": "[x: 0.51543577\ny: 0.3816568\n, x: 0.99855067\ny: 0.62611603\n]",
+    "black sphere on top of box": "[x: 0.47882644\ny: 0.45685279\n, x: 0.57154716\ny: 0.56598985\n]",
+    "Ball, on top of box": "[x: 0.50431112\ny: 0.48634812\n, x: 0.55083428\ny: 0.5665529\n]"
+  }
+}

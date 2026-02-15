@@ -1,0 +1,50 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "green plastic block": "[x: 0.0515895\ny: 0.34023669\n, x: 0.31598569\ny: 0.85207101\n]",
+    "Green plastic square shape, left side of the image, to the left of the red square shape": "[x: 0.06030409\ny: 0.40116279\n, x: 0.31414261\ny: 0.84207542\n]",
+    "Green": "[x: 0.06063831\ny: 0.39176829\n, x: 0.31482082\ny: 0.81402439\n]",
+    "Construction block toy, green, plastic, on the floor on the left'": "[x: 0.06170567\ny: 0.41132652\n, x: 0.31521705\ny: 0.83394161\n]",
+    "A green lego block, made of plastic, placed in the extreme centre left of the image.": "[x: 0.05972186\ny: 0.40770353\n, x: 0.31820018\ny: 0.83394161\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: I can only handle objects that are both green AND made of plastic.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "red plastic block": "[x: 0.309537\ny: 0.38461538\n, x: 0.51428284\ny: 0.86094675\n]",
+    "blue plastic/rubber ball": "[x: 0.79963726\ny: 0.52071006\n, x: 0.99632223\ny: 0.90532544\n]",
+    "green wooden block": "[x: 0.52556804\ny: 0.53846154\n, x: 0.79318857\ny: 0.90828402\n]",
+    "blue ball, right hand side of image": "[x: 0.51798249\ny: 0.5755814\n, x: 0.7936062\ny: 0.85465116\n]",
+    "shelving unit, in the background on the left side": "[x: 0.0\ny: 0.0\n, x: 0.47756013\ny: 0.32267442\n]",
+    "green wooden oblong shape, to the left of the blue ball shape.": "[x: 0.51798249\ny: 0.5830939\n, x: 0.79329683\ny: 0.85755814\n]",
+    "red square object, centre of image, to the left of a green square object and to the right of the oblong wooden block": "[x: 0.31522482\ny: 0.42151163\n, x: 0.49738991\ny: 0.80523256\n]",
+    "Red": "[x: 0.31814347\ny: 0.4375\n, x: 0.51584098\ny: 0.81097561\n]",
+    "Blue": "[x: 0.81654055\ny: 0.56707317\n, x: 0.98931821\ny: 0.87347561\n]",
+    "Wood": "[x: 0.51501032\ny: 0.58841463\n, x: 0.79743533\ny: 0.83231707\n]",
+    "Construction block toy, green, wood, on the floor on the right": "[x: 0.52156894\ny: 0.57951609\n, x: 0.78932393\ny: 0.85191672\n]",
+    "Ball, blue, plastic, on the floor on the right.": "[x: 0.81619777\ny: 0.55758498\n, x: 0.99337461\ny: 0.88299856\n]",
+    "Construction block toy, red, plastic, on the floor on the left.": "[x: 0.31521705\ny: 0.42778318\n, x: 0.49818102\ny: 0.80256673\n]",
+    "A red lego block, made of plastic, placed in the centre left of the image.": "[x: 0.31155497\ny: 0.42961466\n, x: 0.50017091\ny: 0.80656934\n]",
+    "A small blue ball, made of plastic, placed in the extreme centre right  of the image.": "[x: 0.81420902\ny: 0.55397198\n, x: 0.99735869\ny: 0.88321168\n]",
+    "A green rectangular block, appears to be made of wood based on the visible striations, placed in the centre right of the image.": "[x: 0.52156993\ny: 0.57773456\n, x: 0.79251732\ny: 0.85583942\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_104/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: I can only handle objects that are both green AND made of plastic.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_104/image.jpg"
+  ],
+  "answer": {
+    "red plastic block": "[x: 0.309537\ny: 0.38461538\n, x: 0.51428284\ny: 0.86094675\n]",
+    "blue plastic/rubber ball": "[x: 0.79963726\ny: 0.52071006\n, x: 0.99632223\ny: 0.90532544\n]",
+    "green wooden block": "[x: 0.52556804\ny: 0.53846154\n, x: 0.79318857\ny: 0.90828402\n]",
+    "blue ball, right hand side of image": "[x: 0.51798249\ny: 0.5755814\n, x: 0.7936062\ny: 0.85465116\n]",
+    "shelving unit, in the background on the left side": "[x: 0.0\ny: 0.0\n, x: 0.47756013\ny: 0.32267442\n]",
+    "green wooden oblong shape, to the left of the blue ball shape.": "[x: 0.51798249\ny: 0.5830939\n, x: 0.79329683\ny: 0.85755814\n]",
+    "red square object, centre of image, to the left of a green square object and to the right of the oblong wooden block": "[x: 0.31522482\ny: 0.42151163\n, x: 0.49738991\ny: 0.80523256\n]",
+    "Red": "[x: 0.31814347\ny: 0.4375\n, x: 0.51584098\ny: 0.81097561\n]",
+    "Blue": "[x: 0.81654055\ny: 0.56707317\n, x: 0.98931821\ny: 0.87347561\n]",
+    "Wood": "[x: 0.51501032\ny: 0.58841463\n, x: 0.79743533\ny: 0.83231707\n]",
+    "Construction block toy, green, wood, on the floor on the right": "[x: 0.52156894\ny: 0.57951609\n, x: 0.78932393\ny: 0.85191672\n]",
+    "Ball, blue, plastic, on the floor on the right.": "[x: 0.81619777\ny: 0.55758498\n, x: 0.99337461\ny: 0.88299856\n]",
+    "Construction block toy, red, plastic, on the floor on the left.": "[x: 0.31521705\ny: 0.42778318\n, x: 0.49818102\ny: 0.80256673\n]",
+    "A red lego block, made of plastic, placed in the centre left of the image.": "[x: 0.31155497\ny: 0.42961466\n, x: 0.50017091\ny: 0.80656934\n]",
+    "A small blue ball, made of plastic, placed in the extreme centre right  of the image.": "[x: 0.81420902\ny: 0.55397198\n, x: 0.99735869\ny: 0.88321168\n]",
+    "A green rectangular block, appears to be made of wood based on the visible striations, placed in the centre right of the image.": "[x: 0.52156993\ny: 0.57773456\n, x: 0.79251732\ny: 0.85583942\n]"
+  }
+}

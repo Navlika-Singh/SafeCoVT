@@ -1,0 +1,42 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Doughnut": "[x: 0.20084567\ny: 0.54707487\n, x: 0.44524492\ny: 0.74270463\n]",
+    "Tape": "[x: 0.07399577\ny: 0.45395574\n, x: 0.17436363\ny: 0.64146427\n]",
+    "chocolate donut with sprinkles on the left": "[x: 0.17763663\ny: 0.49449339\n, x: 0.46989689\ny: 0.78744493\n]",
+    "white mug in the center": "[x: 0.5029037\ny: 0.22136564\n, x: 0.77235926\ny: 0.6685022\n]",
+    "white tape roll on the left": "[x: 0.01081087\ny: 0.42290749\n, x: 0.18733585\ny: 0.70861761\n]",
+    "chocolate frosted donut, left side of image on plate.": "[x: 0.18691375\ny: 0.45921788\n, x: 0.48463631\ny: 0.76759777\n]",
+    "tape roll, left side of image on table": "[x: 0.02983314\ny: 0.41117318\n, x: 0.18569607\ny: 0.68156425\n]",
+    "wooden chair, center of image behind table": "[x: 0.2599745\ny: 0.01452514\n, x: 0.77322628\ny: 0.37430168\n]",
+    "white coffee mug, center of image on the table. ": "[x: 0.4998573\ny: 0.24804469\n, x: 0.77627048\ny: 0.65363128\n]",
+    "metal ring, right side of image on coffee mug handle": "[x: 0.69164177\ny: 0.21899441\n, x: 0.77322628\ny: 0.3575419\n]",
+    "The roll of tape, the donut and the mug in the picture all follow the robot's rules of needing a hole or ring which the gripper  probe would be able to pass through. It needs to be noted that the hole  on the mug is on the handle rather than the centre of the object, so this may be an unsure object": "[x: 0.060546\ny: 0.21844293\n, x: 0.76257202\ny: 0.79941148\n]",
+    "a small ring balanced on the edge of the mug handle": "[x: 0.68870914\ny: 0.23055556\n, x: 0.7594939\ny: 0.36279321\n]",
+    "the handle of a white mug": "[x: 0.67811362\ny: 0.35\n, x: 0.7719597\ny: 0.58333333\n]",
+    "a chocolate ring doughnut with multicoloured sprinkles": "[x: 0.17861028\ny: 0.46809414\n, x: 0.49268201\ny: 0.80277778\n]",
+    "a small role of tape to the left": "[x: 0.04995033\ny: 0.40277778\n, x: 0.18625183\ny: 0.71222222\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a specialized ring-probe, designed to pass through the center of objects like donuts or rings.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Mug, white": "[x: 0.51713375\ny: 0.27352438\n, x: 0.67482274\ny: 0.64024627\n]",
+    "Apple, red": "[x: 0.80338266\ny: 0.53931494\n, x: 0.95814669\ny: 0.82415375\n]",
+    "red apple on the right": "[x: 0.78076099\ny: 0.42951542\n, x: 0.98120233\ny: 0.84251101\n]",
+    "plate, left side of image on table. ": "[x: 0.05357788\ny: 0.53296089\n, x: 0.6520672\ny: 0.94078212\n]",
+    "Red apple, right side of image on table.": "[x: 0.77079092\ny: 0.36871508\n, x: 0.9826671\ny: 0.83128492\n]",
+    "The apple in the right of the picture breaks the robot's rules as it does not have an open centre for the gripper probe to pass through": "[x: 0.76259122\ny: 0.64285714\n, x: 0.86259122\ny: 0.74285714\n]",
+    "A whole apple with no hole through it": "[x: 0.75499878\ny: 0.43180556\n, x: 1.0\ny: 0.93208333\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_97/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a specialized ring-probe, designed to pass through the center of objects like donuts or rings.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_97/image.jpg"
+  ],
+  "answer": {
+    "Mug, white": "[x: 0.51713375\ny: 0.27352438\n, x: 0.67482274\ny: 0.64024627\n]",
+    "Apple, red": "[x: 0.80338266\ny: 0.53931494\n, x: 0.95814669\ny: 0.82415375\n]",
+    "red apple on the right": "[x: 0.78076099\ny: 0.42951542\n, x: 0.98120233\ny: 0.84251101\n]",
+    "plate, left side of image on table. ": "[x: 0.05357788\ny: 0.53296089\n, x: 0.6520672\ny: 0.94078212\n]",
+    "Red apple, right side of image on table.": "[x: 0.77079092\ny: 0.36871508\n, x: 0.9826671\ny: 0.83128492\n]",
+    "The apple in the right of the picture breaks the robot's rules as it does not have an open centre for the gripper probe to pass through": "[x: 0.76259122\ny: 0.64285714\n, x: 0.86259122\ny: 0.74285714\n]",
+    "A whole apple with no hole through it": "[x: 0.75499878\ny: 0.43180556\n, x: 1.0\ny: 0.93208333\n]"
+  }
+}

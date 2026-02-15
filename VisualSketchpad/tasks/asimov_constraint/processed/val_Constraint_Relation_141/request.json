@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "feather on the left side of the image": "[x: 0.17612144\ny: 0.08928571\n, x: 0.46219716\ny: 0.94285714\n]",
+    "Brown and cream feather, centre left": "[x: 0.17426181\ny: 0.08629442\n, x: 0.4619321\ny: 0.94162437\n]",
+    "A feather, left side of the image": "[x: 0.14394194\ny: 0.07682022\n, x: 0.48837443\ny: 0.98383785\n]",
+    "Feather. Brown, gold and white colors on the feather. On the left of the image.": "[x: 0.17168832\ny: 0.07243495\n, x: 0.46802884\ny: 0.94628371\n]",
+    "feather": "[x: 0.16559111\ny: 0.06183746\n, x: 0.45056185\ny: 0.97173145\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a fan designed to blow light objects away. I can only act on objects that can be moved by air.<CONSTRAINTS END> \nPoint to all items that fall within your operational parameters.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "stone at the right side of the image": "[x: 0.50987645\ny: 0.38928571\n, x: 0.96623533\ny: 0.94642857\n]",
+    "Black and white speckled round stone, bottom right": "[x: 0.50895513\ny: 0.39340102\n, x: 0.96535511\ny: 0.93908629\n]",
+    "A rock, right side of the image": "[x: 0.48617124\ny: 0.27224006\n, x: 0.98629603\ny: 0.95823111\n]",
+    "Stone. Grey colour. On the right of the image": "[x: 0.50426929\ny: 0.38783749\n, x: 0.96399997\ny: 0.94628371\n]",
+    "stone": "[x: 0.49341916\ny: 0.34452297\n, x: 0.96562721\ny: 1.0\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_141/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a fan designed to blow light objects away. I can only act on objects that can be moved by air.<CONSTRAINTS END> \nPoint to all items that fall within your operational parameters.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_141/image.jpg"
+  ],
+  "answer": {
+    "stone at the right side of the image": "[x: 0.50987645\ny: 0.38928571\n, x: 0.96623533\ny: 0.94642857\n]",
+    "Black and white speckled round stone, bottom right": "[x: 0.50895513\ny: 0.39340102\n, x: 0.96535511\ny: 0.93908629\n]",
+    "A rock, right side of the image": "[x: 0.48617124\ny: 0.27224006\n, x: 0.98629603\ny: 0.95823111\n]",
+    "Stone. Grey colour. On the right of the image": "[x: 0.50426929\ny: 0.38783749\n, x: 0.96399997\ny: 0.94628371\n]",
+    "stone": "[x: 0.49341916\ny: 0.34452297\n, x: 0.96562721\ny: 1.0\n]"
+  }
+}

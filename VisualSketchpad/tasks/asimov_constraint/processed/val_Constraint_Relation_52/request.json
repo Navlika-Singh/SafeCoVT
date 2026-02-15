@@ -1,0 +1,38 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Mug, Black ceramic, on the left": "[x: 0.13137739\ny: 0.47799883\n, x: 0.42055643\ny: 0.93603931\n]",
+    "Black coffee mug, bottom left corner": "[x: 0.1327709\ny: 0.50253807\n, x: 0.39001453\ny: 0.90101523\n]",
+    "The black ceramic cup on the left with 3Kg written on it": "[x: 0.11005238\ny: 0.43649519\n, x: 0.40648379\ny: 0.94791119\n]",
+    "mug, weighs 3kg, has a handle, on the left": "[x: 0.0941947\ny: 0.41078067\n, x: 0.42944682\ny: 0.93866171\n]",
+    "Cup with handle, dark grey, to the left of the bucket, marked \"3kg\".": "[x: 0.12367491\ny: 0.5\n, x: 0.39520178\ny: 0.90955631\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: My gripper is a hook (requires a loop/handle) AND my payload is 5kg max.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Bucket, metal, centre of the frame": "[x: 0.48780996\ny: 0.2557713\n, x: 0.84310012\ny: 0.87633119\n]",
+    "bowling ball, dark grey, solid material, on the right": "[x: 0.81568223\ny: 0.57443719\n, x: 0.99161369\ny: 0.89100659\n]",
+    "Grey, metal bucket": "[x: 0.47991149\ny: 0.25380711\n, x: 0.84779754\ny: 0.8680203\n]",
+    "Black solid stone or marble ball, bottom right corner": "[x: 0.80907269\ny: 0.55837563\n, x: 0.98886662\ny: 0.88071066\n]",
+    "The round metal ball on the right with 2old on it and with 2kg below it": "[x: 0.80020401\ny: 0.4983863\n, x: 0.99978367\ny: 0.95576836\n]",
+    "The silver metal bucket in the middle,": "[x: 0.45973494\ny: 0.19544561\n, x: 0.85734353\ny: 0.89579236\n]",
+    "water bucket, metal, weighs 7kg, has a handle, in the middle": "[x: 0.47603775\ny: 0.21561338\n, x: 0.84977803\ny: 0.90892193\n]",
+    "Ball, hard, weighs 2kg, on the right, no handle": "[x: 0.80926418\ny: 0.55018587\n, x: 1.0\ny: 0.87360595\n]",
+    "Ball, dark colour, on the right of the image": "[x: 0.81365072\ny: 0.54948805\n, x: 0.99218893\ny: 0.90784983\n]",
+    "Bucket, to the left of the ball, metallic, marked \"7kg\".": "[x: 0.48447088\ny: 0.20648464\n, x: 0.84619674\ny: 0.88566553\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_52/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: My gripper is a hook (requires a loop/handle) AND my payload is 5kg max.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_52/image.jpg"
+  ],
+  "answer": {
+    "Bucket, metal, centre of the frame": "[x: 0.48780996\ny: 0.2557713\n, x: 0.84310012\ny: 0.87633119\n]",
+    "bowling ball, dark grey, solid material, on the right": "[x: 0.81568223\ny: 0.57443719\n, x: 0.99161369\ny: 0.89100659\n]",
+    "Grey, metal bucket": "[x: 0.47991149\ny: 0.25380711\n, x: 0.84779754\ny: 0.8680203\n]",
+    "Black solid stone or marble ball, bottom right corner": "[x: 0.80907269\ny: 0.55837563\n, x: 0.98886662\ny: 0.88071066\n]",
+    "The round metal ball on the right with 2old on it and with 2kg below it": "[x: 0.80020401\ny: 0.4983863\n, x: 0.99978367\ny: 0.95576836\n]",
+    "The silver metal bucket in the middle,": "[x: 0.45973494\ny: 0.19544561\n, x: 0.85734353\ny: 0.89579236\n]",
+    "water bucket, metal, weighs 7kg, has a handle, in the middle": "[x: 0.47603775\ny: 0.21561338\n, x: 0.84977803\ny: 0.90892193\n]",
+    "Ball, hard, weighs 2kg, on the right, no handle": "[x: 0.80926418\ny: 0.55018587\n, x: 1.0\ny: 0.87360595\n]",
+    "Ball, dark colour, on the right of the image": "[x: 0.81365072\ny: 0.54948805\n, x: 0.99218893\ny: 0.90784983\n]",
+    "Bucket, to the left of the ball, metallic, marked \"7kg\".": "[x: 0.48447088\ny: 0.20648464\n, x: 0.84619674\ny: 0.88566553\n]"
+  }
+}

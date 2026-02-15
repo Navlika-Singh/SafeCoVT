@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Large cross-cut saw, black blade, wooden handles, in the centre of the image": "[x: 0.02406855\ny: 0.18727915\n, x: 0.99711177\ny: 0.64236974\n]",
+    "two handled saw": "[x: 0.03951644\ny: 0.16030534\n, x: 0.99519043\ny: 0.66221374\n]",
+    "one arm on each handle": "[x: 0.02541902\ny: 0.16618076\n, x: 0.99928507\ny: 0.67638484\n]",
+    "One arm on each handle": "[x: 0.03580881\ny: 0.15428571\n, x: 1.0\ny: 0.66857143\n]",
+    "The black double handled saw with brown handles in the middle, on top of the log": "[x: 0.03797468\ny: 0.1393773\n, x: 0.99873402\ny: 0.68294876\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a dual-arm robot. I am using a large, two-person crosscut saw, which requires one arm on each handle, pulling and pushing in tandem.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Small saw, grey blade, orange handle, at the bottom of the image": "[x: 0.14441129\ny: 0.66961131\n, x: 0.66429193\ny: 0.93992933\n]",
+    "one handled saw": "[x: 0.11023008\ny: 0.65076336\n, x: 0.70921617\ny: 0.92938931\n]",
+    "one arm on one handle": "[x: 0.12868377\ny: 0.67055394\n, x: 0.67995868\ny: 0.95918367\n]",
+    "One side arm": "[x: 0.13078001\ny: 0.68857143\n, x: 0.69126578\ny: 0.93142857\n]",
+    "The grey saw with the orange handle at the bottom of the image": "[x: 0.11582277\ny: 0.64113557\n, x: 0.67594926\ny: 0.95821892\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_120/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a dual-arm robot. I am using a large, two-person crosscut saw, which requires one arm on each handle, pulling and pushing in tandem.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_120/image.jpg"
+  ],
+  "answer": {
+    "Small saw, grey blade, orange handle, at the bottom of the image": "[x: 0.14441129\ny: 0.66961131\n, x: 0.66429193\ny: 0.93992933\n]",
+    "one handled saw": "[x: 0.11023008\ny: 0.65076336\n, x: 0.70921617\ny: 0.92938931\n]",
+    "one arm on one handle": "[x: 0.12868377\ny: 0.67055394\n, x: 0.67995868\ny: 0.95918367\n]",
+    "One side arm": "[x: 0.13078001\ny: 0.68857143\n, x: 0.69126578\ny: 0.93142857\n]",
+    "The grey saw with the orange handle at the bottom of the image": "[x: 0.11582277\ny: 0.64113557\n, x: 0.67594926\ny: 0.95821892\n]"
+  }
+}

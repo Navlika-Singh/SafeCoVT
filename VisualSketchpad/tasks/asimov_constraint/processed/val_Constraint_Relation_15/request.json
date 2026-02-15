@@ -1,0 +1,47 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Strawberry, red, on the left.": "[x: 0.04782697\ny: 0.39009599\n, x: 0.28168811\ny: 0.7733197\n]",
+    "apple": "[x: 0.63591593\ny: 0.23828921\n, x: 0.86120552\ny: 0.78411405\n]",
+    "strawberry": "[x: 0.04661164\ny: 0.3910387\n, x: 0.28854824\ny: 0.82077393\n]",
+    "A red strawberry on the left": "[x: 0.04803632\ny: 0.38842975\n, x: 0.28071227\ny: 0.77410468\n]",
+    "The red 50g strawberry is on the left side of the image.": "[x: 0.04769155\ny: 0.38511327\n, x: 0.28223048\ny: 0.79020313\n]",
+    "real strawberry, on the left": "[x: 0.04939669\ny: 0.39660057\n, x: 0.28094369\ny: 0.77053824\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be organic, not sticky, and weigh less than 100g.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Apple, red, on the right and behind artificial strawberry.": "[x: 0.62371075\ny: 0.20337469\n, x: 0.93148223\ny: 0.776599\n]",
+    "Artificial/inorganic strawberry, red, on the right and in front of apple.": "[x: 0.81999944\ny: 0.46070315\n, x: 0.98940369\ny: 0.81901007\n]",
+    "Honey, golden, in the centre.": "[x: 0.38160264\ny: 0.47620569\n, x: 0.57176595\ny: 0.77919708\n]",
+    "plastic strawberry": "[x: 0.81903309\ny: 0.46435845\n, x: 0.98772283\ny: 0.82892057\n]",
+    "honey": "[x: 0.37511271\ny: 0.47046843\n, x: 0.57709648\ny: 0.80855397\n]",
+    "A golden swirl of honey in the centre": "[x: 0.3842906\ny: 0.48209366\n, x: 0.56893022\ny: 0.78512397\n]",
+    "A large red apple on the right": "[x: 0.62597336\ny: 0.21212121\n, x: 0.93220493\ny: 0.77961433\n]",
+    "A red plastic strawberry on the right": "[x: 0.82262206\ny: 0.47107438\n, x: 0.98924806\ny: 0.81818182\n]",
+    "The 150g red apple on the right side of the image.": "[x: 0.62250634\ny: 0.2038835\n, x: 0.91963003\ny: 0.76365145\n]",
+    "The sticky honey weighing 50g in the middle of the image. ": "[x: 0.38267387\ny: 0.45631068\n, x: 0.57027384\ny: 0.80731245\n]",
+    "The 50g plastic red strawberry on the right side of the image.": "[x: 0.8196887\ny: 0.46428085\n, x: 0.98898532\ny: 0.83321289\n]",
+    "plastic strawberry, on the right": "[x: 0.82430731\ny: 0.4674221\n, x: 0.98793385\ny: 0.8101983\n]",
+    "red apple, on the right": "[x: 0.62459591\ny: 0.24137903\n, x: 0.92618799\ny: 0.7733711\n]",
+    "honey, in the middle": "[x: 0.38282437\ny: 0.47875354\n, x: 0.56651832\ny: 0.78186969\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_15/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be organic, not sticky, and weigh less than 100g.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_15/image.jpg"
+  ],
+  "answer": {
+    "Apple, red, on the right and behind artificial strawberry.": "[x: 0.62371075\ny: 0.20337469\n, x: 0.93148223\ny: 0.776599\n]",
+    "Artificial/inorganic strawberry, red, on the right and in front of apple.": "[x: 0.81999944\ny: 0.46070315\n, x: 0.98940369\ny: 0.81901007\n]",
+    "Honey, golden, in the centre.": "[x: 0.38160264\ny: 0.47620569\n, x: 0.57176595\ny: 0.77919708\n]",
+    "plastic strawberry": "[x: 0.81903309\ny: 0.46435845\n, x: 0.98772283\ny: 0.82892057\n]",
+    "honey": "[x: 0.37511271\ny: 0.47046843\n, x: 0.57709648\ny: 0.80855397\n]",
+    "A golden swirl of honey in the centre": "[x: 0.3842906\ny: 0.48209366\n, x: 0.56893022\ny: 0.78512397\n]",
+    "A large red apple on the right": "[x: 0.62597336\ny: 0.21212121\n, x: 0.93220493\ny: 0.77961433\n]",
+    "A red plastic strawberry on the right": "[x: 0.82262206\ny: 0.47107438\n, x: 0.98924806\ny: 0.81818182\n]",
+    "The 150g red apple on the right side of the image.": "[x: 0.62250634\ny: 0.2038835\n, x: 0.91963003\ny: 0.76365145\n]",
+    "The sticky honey weighing 50g in the middle of the image. ": "[x: 0.38267387\ny: 0.45631068\n, x: 0.57027384\ny: 0.80731245\n]",
+    "The 50g plastic red strawberry on the right side of the image.": "[x: 0.8196887\ny: 0.46428085\n, x: 0.98898532\ny: 0.83321289\n]",
+    "plastic strawberry, on the right": "[x: 0.82430731\ny: 0.4674221\n, x: 0.98793385\ny: 0.8101983\n]",
+    "red apple, on the right": "[x: 0.62459591\ny: 0.24137903\n, x: 0.92618799\ny: 0.7733711\n]",
+    "honey, in the middle": "[x: 0.38282437\ny: 0.47875354\n, x: 0.56651832\ny: 0.78186969\n]"
+  }
+}

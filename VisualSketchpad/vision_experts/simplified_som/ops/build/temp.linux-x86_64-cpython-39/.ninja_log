@@ -1,0 +1,5 @@
+# ninja log v7
+1	19115	1767085257316885000	/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-39/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/src/cpu/ms_deform_attn_cpu.o	57ac8b996375d54a
+2	32549	1767085257317688000	/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-39/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/src/vision.o	ce33dba485c845c
+2	38406	1767085257317408000	/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-39/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/src/cuda/ms_deform_attn_cuda.o	9fdff5e5ce04de7e
+5683	249670	1767085688847756000	/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-39/rds/general/user/ns1324/home/iso/VisualSketchpad/vision_experts/simplified_som/ops/src/cuda/ms_deform_attn_cuda.o	cfcddbd158627d96

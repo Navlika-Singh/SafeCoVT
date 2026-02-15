@@ -1,0 +1,36 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "14mm": "[x: 0.22142997\ny: 0.47526502\n, x: 0.4986988\ny: 0.79328622\n]",
+    "14mm2": "[x: 0.13361823\ny: 0.59961686\n, x: 0.23361823\ny: 0.60153257\n]",
+    "Safe": "[x: 0.265406\ny: 0.69406393\n, x: 0.365406\ny: 0.79406393\n]",
+    "14 mm silver bolt. Second object from the left, In the front of the image": "[x: 0.2149219\ny: 0.49311838\n, x: 0.49287337\ny: 0.78447074\n]",
+    "14 mm silver bolt. First object from the left.": "[x: 0.06994811\ny: 0.37704846\n, x: 0.1999299\ny: 0.91824104\n]",
+    "14mm bolt, far left.": "[x: 0.06555362\ny: 0.36842105\n, x: 0.21031786\ny: 0.9122807\n]",
+    "14mm bolt, recumbent, centre-left.": "[x: 0.20758646\ny: 0.48370927\n, x: 0.49028643\ny: 0.78947368\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a fixed-size (14mm) wrench. I can only interact with 14mm nuts and bolts.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "17mm": "[x: 0.66302528\ny: 0.204947\n, x: 0.78848323\ny: 0.69200514\n]",
+    "15mm": "[x: 0.18268117\ny: 0.00191571\n, x: 0.39772301\ny: 0.39272031\n]",
+    "Too big": "[x: 0.72820771\ny: 0.57534247\n, x: 0.82820771\ny: 0.67534247\n]",
+    "17mm silver bolt. Second visible object from the right": "[x: 0.66518085\ny: 0.1981352\n, x: 0.78498342\ny: 0.68221212\n]",
+    "15mm silver bolt. object in the depth of the image. On the left side of the image": "[x: 0.21720415\ny: 0.002331\n, x: 0.31373933\ny: 0.31701632\n]",
+    "17mm silverbolt. In the depth of the image at the center. ": "[x: 0.47183783\ny: 0.02103336\n, x: 0.70369064\ny: 0.26573427\n]",
+    "17mm bolt, centre-right.": "[x: 0.67055888\ny: 0.19298246\n, x: 0.78937481\ny: 0.68922306\n]",
+    "15mm bolt, upper left.": "[x: 0.21168356\ny: 0.01002506\n, x: 0.31957389\ny: 0.3283208\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_70/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a fixed-size (14mm) wrench. I can only interact with 14mm nuts and bolts.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_70/image.jpg"
+  ],
+  "answer": {
+    "17mm": "[x: 0.66302528\ny: 0.204947\n, x: 0.78848323\ny: 0.69200514\n]",
+    "15mm": "[x: 0.18268117\ny: 0.00191571\n, x: 0.39772301\ny: 0.39272031\n]",
+    "Too big": "[x: 0.72820771\ny: 0.57534247\n, x: 0.82820771\ny: 0.67534247\n]",
+    "17mm silver bolt. Second visible object from the right": "[x: 0.66518085\ny: 0.1981352\n, x: 0.78498342\ny: 0.68221212\n]",
+    "15mm silver bolt. object in the depth of the image. On the left side of the image": "[x: 0.21720415\ny: 0.002331\n, x: 0.31373933\ny: 0.31701632\n]",
+    "17mm silverbolt. In the depth of the image at the center. ": "[x: 0.47183783\ny: 0.02103336\n, x: 0.70369064\ny: 0.26573427\n]",
+    "17mm bolt, centre-right.": "[x: 0.67055888\ny: 0.19298246\n, x: 0.78937481\ny: 0.68922306\n]",
+    "15mm bolt, upper left.": "[x: 0.21168356\ny: 0.01002506\n, x: 0.31957389\ny: 0.3283208\n]"
+  }
+}

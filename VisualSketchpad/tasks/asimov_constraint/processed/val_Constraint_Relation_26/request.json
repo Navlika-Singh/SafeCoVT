@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Spanner, silver, solid, in the top of the image.": "[x: 0.05165106\ny: 0.07120947\n, x: 0.91202955\ny: 0.79616463\n]",
+    "Wrench, metal, silver, top": "[x: 0.04501701\ny: 0.06074766\n, x: 0.90585556\ny: 0.80112237\n]",
+    "rigid tool": "[x: 0.03105191\ny: 0.13970588\n, x: 0.9095206\ny: 0.58088235\n]",
+    "spanner, silver, top half of image": "[x: 0.0407694\ny: 0.0620438\n, x: 0.32018893\ny: 0.86678832\n]",
+    "single-piece wrench, on the upper left": "[x: 0.04939669\ny: 0.06515581\n, x: 0.90457693\ny: 0.8101983\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My task is to pick up a tool. The tool must be rigid.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Flexible spanner, silver, in the bottom right, made up of mnay parts": "[x: 0.33345398\ny: 0.45140728\n, x: 0.99174766\ny: 0.93489467\n]",
+    "Chain wrench, metal, silver, bottom": "[x: 0.32592976\ny: 0.41121495\n, x: 0.9905209\ny: 0.96845794\n]",
+    "non rigid tool": "[x: 0.36961796\ny: 0.41285954\n, x: 1.0\ny: 0.92647059\n]",
+    "flexible spanner, silver, bottom right of image": "[x: 0.33152159\ny: 0.44626445\n, x: 1.0\ny: 0.9689448\n]",
+    "foldable wrench, on the lower right": "[x: 0.33188403\ny: 0.41926346\n, x: 0.9894775\ny: 0.96883853\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_26/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My task is to pick up a tool. The tool must be rigid.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_26/image.jpg"
+  ],
+  "answer": {
+    "Flexible spanner, silver, in the bottom right, made up of mnay parts": "[x: 0.33345398\ny: 0.45140728\n, x: 0.99174766\ny: 0.93489467\n]",
+    "Chain wrench, metal, silver, bottom": "[x: 0.32592976\ny: 0.41121495\n, x: 0.9905209\ny: 0.96845794\n]",
+    "non rigid tool": "[x: 0.36961796\ny: 0.41285954\n, x: 1.0\ny: 0.92647059\n]",
+    "flexible spanner, silver, bottom right of image": "[x: 0.33152159\ny: 0.44626445\n, x: 1.0\ny: 0.9689448\n]",
+    "foldable wrench, on the lower right": "[x: 0.33188403\ny: 0.41926346\n, x: 0.9894775\ny: 0.96883853\n]"
+  }
+}

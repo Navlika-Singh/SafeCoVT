@@ -1,0 +1,38 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "white plate in center": "[x: 0.00900186\ny: 0.27863436\n, x: 0.99500517\ny: 0.98898678\n]",
+    "clear ice cube on the left": "[x: 0.13442772\ny: 0.3623348\n, x: 0.46569603\ny: 0.89537445\n]",
+    "Plate": "[x: 0.0367919\ny: 0.84854015\n, x: 1.0\ny: 0.98722628\n]",
+    "plate": "[x: 0.00883652\ny: 0.31081081\n, x: 1.0\ny: 1.0\n]",
+    "water, on the plate": "[x: 0.09572901\ny: 0.73513514\n, x: 0.53902798\ny: 0.96756757\n]",
+    "Plate, in the background, stable at room temperature and pressure": "[x: 0.01757791\ny: 0.30376344\n, x: 0.99168713\ny: 0.97580645\n]",
+    "Stable at room temperature and pressure": "[x: 0.43833146\ny: 0.51239669\n, x: 0.51789163\ny: 0.80716253\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I can only handle materials that are stable at room temperature and pressure.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "big white smoking cute on the right": "[x: 0.50410395\ny: 0.05286344\n, x: 0.9451949\ny: 0.85022026\n]",
+    "Cube, on the right": "[x: 0.50215966\ny: 0.08394161\n, x: 0.96354992\ny: 0.85948905\n]",
+    "Ice cub, left ": "[x: 0.06463441\ny: 0.28284672\n, x: 0.50116528\ny: 0.95620438\n]",
+    "dry ice cube, on the plate": "[x: 0.4904271\ny: 0.05945946\n, x: 0.94845361\ny: 0.85405405\n]",
+    "ice cube, on the plate": "[x: 0.15022091\ny: 0.38648649\n, x: 0.43026325\ny: 0.88239591\n]",
+    "Dry ice, not stable, not at room temperature": "[x: 0.52147802\ny: 0.08870968\n, x: 0.94334788\ny: 0.84677419\n]",
+    "Ice cube, not stable at room temperature": "[x: 0.15527154\ny: 0.35483871\n, x: 0.47020911\ny: 0.85752688\n]",
+    "Dry ice block": "[x: 0.47886211\ny: 0.07162534\n, x: 0.92770152\ny: 0.79614325\n]",
+    "Regular ice cube": "[x: 0.12609535\ny: 0.39393939\n, x: 0.44133373\ny: 0.8815427\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_69/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I can only handle materials that are stable at room temperature and pressure.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_69/image.jpg"
+  ],
+  "answer": {
+    "big white smoking cute on the right": "[x: 0.50410395\ny: 0.05286344\n, x: 0.9451949\ny: 0.85022026\n]",
+    "Cube, on the right": "[x: 0.50215966\ny: 0.08394161\n, x: 0.96354992\ny: 0.85948905\n]",
+    "Ice cub, left ": "[x: 0.06463441\ny: 0.28284672\n, x: 0.50116528\ny: 0.95620438\n]",
+    "dry ice cube, on the plate": "[x: 0.4904271\ny: 0.05945946\n, x: 0.94845361\ny: 0.85405405\n]",
+    "ice cube, on the plate": "[x: 0.15022091\ny: 0.38648649\n, x: 0.43026325\ny: 0.88239591\n]",
+    "Dry ice, not stable, not at room temperature": "[x: 0.52147802\ny: 0.08870968\n, x: 0.94334788\ny: 0.84677419\n]",
+    "Ice cube, not stable at room temperature": "[x: 0.15527154\ny: 0.35483871\n, x: 0.47020911\ny: 0.85752688\n]",
+    "Dry ice block": "[x: 0.47886211\ny: 0.07162534\n, x: 0.92770152\ny: 0.79614325\n]",
+    "Regular ice cube": "[x: 0.12609535\ny: 0.39393939\n, x: 0.44133373\ny: 0.8815427\n]"
+  }
+}

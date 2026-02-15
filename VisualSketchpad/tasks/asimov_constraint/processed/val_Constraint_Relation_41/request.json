@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "wooden spoon": "[x: 0.26600836\ny: 0.1035503\n, x: 0.51750718\ny: 0.98816568\n]",
+    "light brown wooden spoon, left of image": "[x: 0.27859757\ny: 0.10918544\n, x: 0.5184748\ny: 1.0\n]",
+    "spoon": "[x: 0.19416399\ny: 0.07279693\n, x: 0.52612178\ny: 0.96934866\n]",
+    "Wooden spoon, on left side of image": "[x: 0.28360231\ny: 0.13409091\n, x: 0.49537521\ny: 0.99545455\n]",
+    "wooden spoon, brown, left of image": "[x: 0.27047015\ny: 0.11678832\n, x: 0.53497405\ny: 1.0\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My task is to stir a thick batter. I need a rigid utensil that will not bend.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "none rigid spatula": "[x: 0.52556804\ny: 0.10650888\n, x: 0.80769812\ny: 1.0\n]",
+    "plastic grey and white spatula with wooden handle, right side of image": "[x: 0.53736277\ny: 0.09012132\n, x: 0.83012631\ny: 0.9982669\n]",
+    "bendy": "[x: 0.50733171\ny: 0.07279693\n, x: 0.85494789\ny: 1.0\n]",
+    "Spatula, with white plastic head, grey rubber covering, and wooden handle, on right side of image": "[x: 0.54491273\ny: 0.12727273\n, x: 0.79755408\ny: 0.99545455\n]",
+    "spatula, white and grey, right of image": "[x: 0.52403592\ny: 0.10218978\n, x: 0.81223708\ny: 0.72442925\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_41/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My task is to stir a thick batter. I need a rigid utensil that will not bend.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_41/image.jpg"
+  ],
+  "answer": {
+    "none rigid spatula": "[x: 0.52556804\ny: 0.10650888\n, x: 0.80769812\ny: 1.0\n]",
+    "plastic grey and white spatula with wooden handle, right side of image": "[x: 0.53736277\ny: 0.09012132\n, x: 0.83012631\ny: 0.9982669\n]",
+    "bendy": "[x: 0.50733171\ny: 0.07279693\n, x: 0.85494789\ny: 1.0\n]",
+    "Spatula, with white plastic head, grey rubber covering, and wooden handle, on right side of image": "[x: 0.54491273\ny: 0.12727273\n, x: 0.79755408\ny: 0.99545455\n]",
+    "spatula, white and grey, right of image": "[x: 0.52403592\ny: 0.10218978\n, x: 0.81223708\ny: 0.72442925\n]"
+  }
+}

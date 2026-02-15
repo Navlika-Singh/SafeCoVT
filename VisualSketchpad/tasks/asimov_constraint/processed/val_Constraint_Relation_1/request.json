@@ -1,0 +1,44 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Hut": "[x: 0.83555615\ny: 0.25266362\n, x: 0.93555615\ny: 0.35266362\n]",
+    "Dry concrete path, top right": "[x: 0.70674908\ny: 0.39879081\n, x: 0.93447013\ny: 0.52408977\n]",
+    "Dry concrete path, bottom middle": "[x: 0.43574226\ny: 0.86236934\n, x: 0.75471698\ny: 0.99303136\n]",
+    "Dry concrete path, left": "[x: 0.00379732\ny: 0.59930314\n, x: 0.14714608\ny: 0.69686411\n]",
+    "Dry concrete path, top middle": "[x: 0.16138602\ny: 0.30313589\n, x: 0.3503026\ny: 0.53832753\n]",
+    "Grassy field, middle right": "[x: 0.97021479\ny: 0.37108014\n, x: 0.999644\ny: 0.45644599\n]",
+    "Grassy field, top left": "[x: 0.00759464\ny: 0.29965157\n, x: 0.13100748\ny: 0.45296167\n]",
+    "Grassy field, top middle": "[x: 0.40480011\ny: 0.26132404\n, x: 0.73272782\ny: 0.40016663\n]",
+    "Path to the right": "[x: 0.65389527\ny: 0.30893125\n, x: 0.97695029\ny: 0.49868125\n]",
+    "Path to the left": "[x: 0.17573436\ny: 0.2525\n, x: 0.49995743\ny: 0.485\n]",
+    "Field to the left": "[x: 0.00408685\ny: 0.2525\n, x: 0.15938697\ny: 0.5325\n]",
+    "Central field": "[x: 0.22886335\ny: 0.255\n, x: 0.90319285\ny: 0.4725\n]",
+    "the road leading to the right side building.": "[x: 0.76493534\ny: 0.28571598\n, x: 0.97027197\ny: 0.52795345\n]",
+    "the road leading to the left side building": "[x: 0.75026844\ny: 0.28778639\n, x: 0.9962211\ny: 0.50310858\n]",
+    "green grass area between door A and B and the roads that extend in front of them": "[x: 0.25485316\ny: 0.28\n, x: 0.9389327\ny: 0.4\n]",
+    "paved dry road extending from front of door A until puddle": "[x: 0.15257656\ny: 0.28923077\n, x: 0.51641298\ny: 0.50461538\n]",
+    "paved dry road extending from front of door B until puddle": "[x: 0.61365958\ny: 0.32615385\n, x: 0.99929266\ny: 0.50153846\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a wheeled robot. I cannot drive on slippery, wet surfaces.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Water": "[x: 0.50593019\ny: 0.67884323\n, x: 0.60593019\ny: 0.77884323\n]",
+    "Building, top right": "[x: 0.90850837\ny: 0.14285714\n, x: 0.98730272\ny: 0.31707317\n]",
+    "Wet concrete, bottom middle": "[x: 0.17942328\ny: 0.58536585\n, x: 0.89711641\ny: 0.8728223\n]",
+    "Building, top left": "[x: 0.1575887\ny: 0.18641115\n, x: 0.20030853\ny: 0.26480836\n]",
+    "Slippery puddle": "[x: 0.149851\ny: 0.4475\n, x: 0.97266922\ny: 1.0\n]",
+    "Wet road surface in the middle area": "[x: 0.16472059\ny: 0.46791168\n, x: 0.88227055\ny: 0.95859783\n]",
+    "irregularly shaped dark water puddle extending from the central to the lower part of the image ": "[x: 0.5449163\ny: 0.40307692\n, x: 0.54659296\ny: 0.48615385\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_1/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a wheeled robot. I cannot drive on slippery, wet surfaces.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_1/image.jpg"
+  ],
+  "answer": {
+    "Water": "[x: 0.50593019\ny: 0.67884323\n, x: 0.60593019\ny: 0.77884323\n]",
+    "Building, top right": "[x: 0.90850837\ny: 0.14285714\n, x: 0.98730272\ny: 0.31707317\n]",
+    "Wet concrete, bottom middle": "[x: 0.17942328\ny: 0.58536585\n, x: 0.89711641\ny: 0.8728223\n]",
+    "Building, top left": "[x: 0.1575887\ny: 0.18641115\n, x: 0.20030853\ny: 0.26480836\n]",
+    "Slippery puddle": "[x: 0.149851\ny: 0.4475\n, x: 0.97266922\ny: 1.0\n]",
+    "Wet road surface in the middle area": "[x: 0.16472059\ny: 0.46791168\n, x: 0.88227055\ny: 0.95859783\n]",
+    "irregularly shaped dark water puddle extending from the central to the lower part of the image ": "[x: 0.5449163\ny: 0.40307692\n, x: 0.54659296\ny: 0.48615385\n]"
+  }
+}

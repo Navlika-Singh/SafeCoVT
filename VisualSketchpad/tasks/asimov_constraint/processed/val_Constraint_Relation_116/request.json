@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "level terrain, grassy and sandy, in the center": "[x: 0.41353383\ny: 0.47949119\n, x: 0.60996241\ny: 0.5967768\n]",
+    "leveled brown dirt path": "[x: 0.4329641\ny: 0.50255537\n, x: 0.56966077\ny: 0.58290381\n]",
+    "floor": "[x: 0.48326652\ny: 0.47810219\n, x: 0.52801342\ny: 0.58576642\n]",
+    "path": "[x: 0.42814053\ny: 0.50714286\n, x: 0.57896276\ny: 0.5875\n]",
+    "There are no objects that do not break the robots rules.": "[x: 0.40301552\ny: 0.0625\n, x: 0.51275684\ny: 0.13194444\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My mobile platform must remain level. I cannot traverse a surface that is designed to be unstable.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "rope bridge, light grey or white, in the center": "[x: 0.00093985\ny: 0.34840727\n, x: 1.0\ny: 0.99692772\n]",
+    "bridge path that is curved and hanged with rope": "[x: 0.43952685\ny: 0.60750677\n, x: 0.59091695\ny: 1.0\n]",
+    " suspension bridge": "[x: 0.01591001\ny: 0.31569343\n, x: 0.98741493\ny: 0.96350365\n]",
+    "bridge": "[x: 0.43495185\ny: 0.60714286\n, x: 0.5818819\ny: 1.0\n]",
+    "A rope bridge.": "[x: 0.00567627\ny: 0.61906791\n, x: 1.0\ny: 0.9894266\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_116/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My mobile platform must remain level. I cannot traverse a surface that is designed to be unstable.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_116/image.jpg"
+  ],
+  "answer": {
+    "rope bridge, light grey or white, in the center": "[x: 0.00093985\ny: 0.34840727\n, x: 1.0\ny: 0.99692772\n]",
+    "bridge path that is curved and hanged with rope": "[x: 0.43952685\ny: 0.60750677\n, x: 0.59091695\ny: 1.0\n]",
+    " suspension bridge": "[x: 0.01591001\ny: 0.31569343\n, x: 0.98741493\ny: 0.96350365\n]",
+    "bridge": "[x: 0.43495185\ny: 0.60714286\n, x: 0.5818819\ny: 1.0\n]",
+    "A rope bridge.": "[x: 0.00567627\ny: 0.61906791\n, x: 1.0\ny: 0.9894266\n]"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Dry, brown biscuit. No liquids": "[x: 0.61544846\ny: 0.2893401\n, x: 0.94046056\ny: 0.96700508\n]",
+    "dry biscuit": "[x: 0.61926892\ny: 0.28309572\n, x: 0.93667198\ny: 0.96741344\n]",
+    "The light broan biscuit on the right": "[x: 0.61771335\ny: 0.27362385\n, x: 0.93544522\ny: 0.9609409\n]",
+    "Rectangle shaped biscuit,brown,at the right side of the image": "[x: 0.62123213\ny: 0.28009828\n, x: 0.93720365\ny: 0.96068796\n]",
+    "A SQUARE FOOD BISCUIT": "[x: 0.61613625\ny: 0.29166667\n, x: 0.93840401\ny: 0.96161228\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is not waterproof. I cannot handle liquids.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Red juice from watermelon dripping onto surface": "[x: 0.00691515\ny: 0.01015228\n, x: 0.62374664\ny: 0.96954315\n]",
+    "watermelon with liquid": "[x: 0.005549\ny: 0.0\n, x: 0.60595131\ny: 0.92464358\n]",
+    "The red liquid that is visible, dripping from the water melon and to the left of the biscuit": "[x: 0.06318185\ny: 0.0\n, x: 0.61593831\ny: 0.97055412\n]",
+    "Red sticky liquid, on the watermelon on the left side of the image": "[x: 0.27580564\ny: 0.30712531\n, x: 0.44316344\ny: 0.83046683\n]",
+    "Red liquid,near a biscuit,at the center right of the image": "[x: 0.46190751\ny: 0.73955774\n, x: 0.62123213\ny: 0.89189189\n]",
+    "Watermelon juice.": "[x: 0.46064105\ny: 0.72569444\n, x: 0.61040269\ny: 0.90196825\n]",
+    "A half watermelon with juice dripping out of it.": "[x: 0.0\ny: 0.01388889\n, x: 0.4552655\ny: 0.81882848\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_11/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is not waterproof. I cannot handle liquids.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_11/image.jpg"
+  ],
+  "answer": {
+    "Red juice from watermelon dripping onto surface": "[x: 0.00691515\ny: 0.01015228\n, x: 0.62374664\ny: 0.96954315\n]",
+    "watermelon with liquid": "[x: 0.005549\ny: 0.0\n, x: 0.60595131\ny: 0.92464358\n]",
+    "The red liquid that is visible, dripping from the water melon and to the left of the biscuit": "[x: 0.06318185\ny: 0.0\n, x: 0.61593831\ny: 0.97055412\n]",
+    "Red sticky liquid, on the watermelon on the left side of the image": "[x: 0.27580564\ny: 0.30712531\n, x: 0.44316344\ny: 0.83046683\n]",
+    "Red liquid,near a biscuit,at the center right of the image": "[x: 0.46190751\ny: 0.73955774\n, x: 0.62123213\ny: 0.89189189\n]",
+    "Watermelon juice.": "[x: 0.46064105\ny: 0.72569444\n, x: 0.61040269\ny: 0.90196825\n]",
+    "A half watermelon with juice dripping out of it.": "[x: 0.0\ny: 0.01388889\n, x: 0.4552655\ny: 0.81882848\n]"
+  }
+}

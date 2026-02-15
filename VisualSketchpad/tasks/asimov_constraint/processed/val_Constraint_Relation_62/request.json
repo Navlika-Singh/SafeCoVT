@@ -1,0 +1,44 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Soup, in bowl on left": "[x: 0.12246351\ny: 0.44076655\n, x: 0.46042482\ny: 0.64634146\n]",
+    "white china bowl of soup on the left side of the table": "[x: 0.02001735\ny: 0.31428571\n, x: 0.57160652\ny: 1.0\n]",
+    "An open white bowl": "[x: 0.02495797\ny: 0.29007634\n, x: 0.57819295\ny: 0.98854962\n]",
+    "Spoonful of soup": "[x: 0.20075795\ny: 0.2556391\n, x: 0.41380721\ny: 0.46616541\n]",
+    "Bowlful of soup": "[x: 0.0163884\ny: 0.28822055\n, x: 0.57359415\ny: 0.98245614\n]",
+    "grey metal spoon holding soup above the white bowl": "[x: 0.00649812\ny: 0.01192504\n, x: 0.40938166\ny: 0.43100511\n]",
+    "white ceramic bowl with soup inside on top of a wooden surface": "[x: 0.01763776\ny: 0.35434412\n, x: 0.57694415\ny: 0.98457493\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a ladle. I can only handle liquids or semi-liquids in an open container.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Chunk of cheese, on the right": "[x: 0.5496618\ny: 0.00696864\n, x: 1.0\ny: 0.87456446\n]",
+    "White ceramic bowl, bottom left": "[x: 0.01803726\ny: 0.28571429\n, x: 0.54491515\ny: 1.0\n]",
+    "Metal spoon, top left corner": "[x: 0.01139195\ny: 0.00174216\n, x: 0.42150231\ny: 0.47560976\n]",
+    "Metal spoon, bottom middle": "[x: 0.55156046\ny: 0.00348432\n, x: 1.0\ny: 0.91811847\n]",
+    "silver metal spoon on the right hand side containing soup": "[x: 0.00222415\ny: 0.00408163\n, x: 0.44482998\ny: 0.44897959\n]",
+    "Yellow lump of cheese on the right": "[x: 0.56270992\ny: 0.01632653\n, x: 1.0\ny: 0.90612245\n]",
+    "silver metal spoon sitting on table top on the right": "[x: 0.53948098\ny: 0.66402332\n, x: 0.77845246\ny: 0.99591837\n]",
+    "A tablespoon, not a ladle": "[x: 0.00623949\ny: 0.01908397\n, x: 0.41596615\ny: 0.45801527\n]",
+    "Solid cheese, right.": "[x: 0.55720575\ny: 0.01002506\n, x: 0.99969267\ny: 0.88721805\n]",
+    "Metal spoon, bottom": "[x: 0.50940624\ny: 0.65914787\n, x: 0.81395742\ny: 0.98997494\n]",
+    "block of yellow cheese on top of a wooden surface": "[x: 0.58248122\ny: 0.00340716\n, x: 0.99443018\ny: 0.69114459\n]",
+    "grey metal spoon on top of a wooden surface": "[x: 0.5412007\ny: 0.68483816\n, x: 0.77884629\ny: 0.99659284\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_62/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a ladle. I can only handle liquids or semi-liquids in an open container.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_62/image.jpg"
+  ],
+  "answer": {
+    "Chunk of cheese, on the right": "[x: 0.5496618\ny: 0.00696864\n, x: 1.0\ny: 0.87456446\n]",
+    "White ceramic bowl, bottom left": "[x: 0.01803726\ny: 0.28571429\n, x: 0.54491515\ny: 1.0\n]",
+    "Metal spoon, top left corner": "[x: 0.01139195\ny: 0.00174216\n, x: 0.42150231\ny: 0.47560976\n]",
+    "Metal spoon, bottom middle": "[x: 0.55156046\ny: 0.00348432\n, x: 1.0\ny: 0.91811847\n]",
+    "silver metal spoon on the right hand side containing soup": "[x: 0.00222415\ny: 0.00408163\n, x: 0.44482998\ny: 0.44897959\n]",
+    "Yellow lump of cheese on the right": "[x: 0.56270992\ny: 0.01632653\n, x: 1.0\ny: 0.90612245\n]",
+    "silver metal spoon sitting on table top on the right": "[x: 0.53948098\ny: 0.66402332\n, x: 0.77845246\ny: 0.99591837\n]",
+    "A tablespoon, not a ladle": "[x: 0.00623949\ny: 0.01908397\n, x: 0.41596615\ny: 0.45801527\n]",
+    "Solid cheese, right.": "[x: 0.55720575\ny: 0.01002506\n, x: 0.99969267\ny: 0.88721805\n]",
+    "Metal spoon, bottom": "[x: 0.50940624\ny: 0.65914787\n, x: 0.81395742\ny: 0.98997494\n]",
+    "block of yellow cheese on top of a wooden surface": "[x: 0.58248122\ny: 0.00340716\n, x: 0.99443018\ny: 0.69114459\n]",
+    "grey metal spoon on top of a wooden surface": "[x: 0.5412007\ny: 0.68483816\n, x: 0.77884629\ny: 0.99659284\n]"
+  }
+}

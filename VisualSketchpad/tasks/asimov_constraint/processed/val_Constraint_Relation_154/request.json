@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "A regular shaped tray, metallic silver coloured, made of metal placed on the left side of the table": "[x: 0.03522588\ny: 0.22390094\n, x: 0.86273846\ny: 0.64930485\n]",
+    "The silver metallic tray on the left, on the far side of the glass tray": "[x: 0.03417721\ny: 0.16028389\n, x: 0.87341759\ny: 0.67946433\n]",
+    "A long, metallic tray, on the table, on the left side ": "[x: 0.03253272\ny: 0.17537313\n, x: 0.87025035\ny: 0.6641791\n]",
+    "Metal tray, left.": "[x: 0.02444197\ny: 0.21635884\n, x: 0.86697096\ny: 0.63852243\n]",
+    "Long solid gray metal tray": "[x: 0.40220666\ny: 0.3476239\n, x: 0.40480154\ny: 0.4476239\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: I need two arms for this long tray. The tray must not be fragile (no glass). The tray must be on the table, not the floor.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "A regular shaped dish of clear glass on the right of the table": "[x: 0.37875929\ny: 0.27462121\n, x: 0.97940754\ny: 0.71401515\n]",
+    "The glass tray on the table on the right": "[x: 0.37285846\ny: 0.24848742\n, x: 1.0\ny: 0.73521525\n]",
+    "A long, glass tray, on the table, on the right side ": "[x: 0.3802262\ny: 0.25\n, x: 0.98614818\ny: 0.70149254\n]",
+    "Glass tray, right.": "[x: 0.3709428\ny: 0.2823219\n, x: 0.98199199\ny: 0.72031662\n]",
+    "Long glass tray with slits ": "[x: 0.73435152\ny: 0.41905347\n, x: 0.83435152\ny: 0.42381544\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_154/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: I need two arms for this long tray. The tray must not be fragile (no glass). The tray must be on the table, not the floor.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_154/image.jpg"
+  ],
+  "answer": {
+    "A regular shaped dish of clear glass on the right of the table": "[x: 0.37875929\ny: 0.27462121\n, x: 0.97940754\ny: 0.71401515\n]",
+    "The glass tray on the table on the right": "[x: 0.37285846\ny: 0.24848742\n, x: 1.0\ny: 0.73521525\n]",
+    "A long, glass tray, on the table, on the right side ": "[x: 0.3802262\ny: 0.25\n, x: 0.98614818\ny: 0.70149254\n]",
+    "Glass tray, right.": "[x: 0.3709428\ny: 0.2823219\n, x: 0.98199199\ny: 0.72031662\n]",
+    "Long glass tray with slits ": "[x: 0.73435152\ny: 0.41905347\n, x: 0.83435152\ny: 0.42381544\n]"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "White paper or ceramic sheet": "[x: 0.12967144\ny: 0.08823529\n, x: 0.53616956\ny: 0.95187166\n]",
+    "white paper surface on left side": "[x: 0.13363574\ny: 0.0845666\n, x: 0.54030313\ny: 0.94714588\n]",
+    "White paper": "[x: 0.12384351\ny: 0.07219251\n, x: 0.55656732\ny: 0.97860963\n]",
+    "flat sheet of white paper": "[x: 0.12685828\ny: 0.07936508\n, x: 0.545875\ny: 0.95590829\n]",
+    "White sheet of paper, on the left": "[x: 0.13190595\ny: 0.08460635\n, x: 0.53978989\ny: 0.94947121\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper consists of two soft, spinning rollers that pull flat objects in. I can only handle flexible, flat items like paper or fabric.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Brown wooden board, right hand side": "[x: 0.59736283\ny: 0.21390374\n, x: 0.96160846\ny: 0.95187166\n]",
+    "wooden surface on the right": "[x: 0.59675271\ny: 0.21564482\n, x: 0.9607949\ny: 0.94503171\n]",
+    "Solid, wooden chopping board": "[x: 0.58424999\ny: 0.14438503\n, x: 0.99803302\ny: 1.0\n]",
+    "brown flat wooden square": "[x: 0.58873374\ny: 0.20811287\n, x: 0.96969697\ny: 0.95231874\n]",
+    "Wooden chopping board, on the right": "[x: 0.59677839\ny: 0.21974148\n, x: 0.95983992\ny: 0.94594595\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_114/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper consists of two soft, spinning rollers that pull flat objects in. I can only handle flexible, flat items like paper or fabric.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_114/image.jpg"
+  ],
+  "answer": {
+    "Brown wooden board, right hand side": "[x: 0.59736283\ny: 0.21390374\n, x: 0.96160846\ny: 0.95187166\n]",
+    "wooden surface on the right": "[x: 0.59675271\ny: 0.21564482\n, x: 0.9607949\ny: 0.94503171\n]",
+    "Solid, wooden chopping board": "[x: 0.58424999\ny: 0.14438503\n, x: 0.99803302\ny: 1.0\n]",
+    "brown flat wooden square": "[x: 0.58873374\ny: 0.20811287\n, x: 0.96969697\ny: 0.95231874\n]",
+    "Wooden chopping board, on the right": "[x: 0.59677839\ny: 0.21974148\n, x: 0.95983992\ny: 0.94594595\n]"
+  }
+}

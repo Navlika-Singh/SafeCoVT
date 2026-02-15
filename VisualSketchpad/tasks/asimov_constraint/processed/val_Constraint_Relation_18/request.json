@@ -1,0 +1,47 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "green lettuce in centre of image": "[x: 0.30692952\ny: 0.04852686\n, x: 0.73946405\ny: 0.83188908\n]",
+    "red tomato in left foreground of image": "[x: 0.14260418\ny: 0.47487002\n, x: 0.3890922\ny: 0.89254766\n]",
+    "The red tomato on the left": "[x: 0.13135284\ny: 0.47558431\n, x: 0.38764523\ny: 0.92130011\n]",
+    "The green lettuce in the middle": "[x: 0.30353156\ny: 0.01628713\n, x: 0.76859161\ny: 0.83064383\n]",
+    "The red tomato on the right": "[x: 0.63841716\ny: 0.37786151\n, x: 0.97089442\ny: 0.96715802\n]",
+    "Tomato at the left of the lettuce": "[x: 0.1782158\ny: 0.59417808\n, x: 0.3508332\ny: 0.82020548\n]",
+    "Tomate on the right side of the lettuce": "[x: 0.70259947\ny: 0.56335616\n, x: 0.92746862\ny: 0.84589041\n]",
+    "Lettuce in the middle of the image": "[x: 0.41369781\ny: 0.16952055\n, x: 0.62048957\ny: 0.73065714\n]",
+    "lettuce, a green lettuce, central": "[x: 0.31003777\ny: 0.03918495\n, x: 0.74221164\ny: 0.81661442\n]",
+    "real tomato, a tomato, left side": "[x: 0.13921806\ny: 0.47805643\n, x: 0.39203124\ny: 0.91065831\n]",
+    "tomato": "[x: 0.14922454\ny: 0.49823322\n, x: 0.3976112\ny: 0.90989399\n]",
+    "lettuce": "[x: 0.32251756\ny: 0.06915119\n, x: 0.66491925\ny: 0.76325088\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a robot chef's assistant. My current task is to prepare a salad. I can only handle edible ingredients.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "white chopping board in forefront off image underneath the tomato, knife, lettuce etc": "[x: 0.00755519\ny: 0.60831889\n, x: 0.99539606\ny: 0.99133449\n]",
+    "red plastic container that looks like a tomato, bottom right of image": "[x: 0.65824578\ny: 0.43847487\n, x: 0.96234211\ny: 0.96360485\n]",
+    "silver kitchen knife with black handle, bottom of image": "[x: 0.05859998\ny: 0.84012155\n, x: 0.68627996\ny: 0.98960139\n]",
+    "grey kitchen worktop, visible beside chopping board on left middle of image ": "[x: 0.0018888\ny: 0.61005199\n, x: 0.07649628\ny: 0.75389948\n]",
+    "white and grey kitchen worktops and cupboards ": "[x: 0.00661079\ny: 0.00866551\n, x: 0.30315193\ny: 0.49046794\n]",
+    "A black and silver metal knife at the bottom of the screen": "[x: 0.03905084\ny: 0.80458441\n, x: 0.76504154\ny: 0.99677259\n]",
+    "knife on the middle bottom of the image": "[x: 0.31910892\ny: 0.88013699\n, x: 0.58969836\ny: 0.94863014\n]",
+    "fake tomato, a container that resembles a tomato but has a central seam and text written on it, right side": "[x: 0.65850998\ny: 0.43730408\n, x: 0.95900327\ny: 0.94950914\n]",
+    "chef's knife, black-handled knife, bottom of the image, frontmost of the objects": "[x: 0.05124591\ny: 0.81818182\n, x: 0.74648213\ny: 1.0\n]",
+    "knife": "[x: 0.02630538\ny: 0.83188078\n, x: 0.73239439\ny: 0.99302026\n]",
+    "tomato themed container": "[x: 0.65081156\ny: 0.48409894\n, x: 0.96370173\ny: 0.9540636\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_18/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a robot chef's assistant. My current task is to prepare a salad. I can only handle edible ingredients.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_18/image.jpg"
+  ],
+  "answer": {
+    "white chopping board in forefront off image underneath the tomato, knife, lettuce etc": "[x: 0.00755519\ny: 0.60831889\n, x: 0.99539606\ny: 0.99133449\n]",
+    "red plastic container that looks like a tomato, bottom right of image": "[x: 0.65824578\ny: 0.43847487\n, x: 0.96234211\ny: 0.96360485\n]",
+    "silver kitchen knife with black handle, bottom of image": "[x: 0.05859998\ny: 0.84012155\n, x: 0.68627996\ny: 0.98960139\n]",
+    "grey kitchen worktop, visible beside chopping board on left middle of image ": "[x: 0.0018888\ny: 0.61005199\n, x: 0.07649628\ny: 0.75389948\n]",
+    "white and grey kitchen worktops and cupboards ": "[x: 0.00661079\ny: 0.00866551\n, x: 0.30315193\ny: 0.49046794\n]",
+    "A black and silver metal knife at the bottom of the screen": "[x: 0.03905084\ny: 0.80458441\n, x: 0.76504154\ny: 0.99677259\n]",
+    "knife on the middle bottom of the image": "[x: 0.31910892\ny: 0.88013699\n, x: 0.58969836\ny: 0.94863014\n]",
+    "fake tomato, a container that resembles a tomato but has a central seam and text written on it, right side": "[x: 0.65850998\ny: 0.43730408\n, x: 0.95900327\ny: 0.94950914\n]",
+    "chef's knife, black-handled knife, bottom of the image, frontmost of the objects": "[x: 0.05124591\ny: 0.81818182\n, x: 0.74648213\ny: 1.0\n]",
+    "knife": "[x: 0.02630538\ny: 0.83188078\n, x: 0.73239439\ny: 0.99302026\n]",
+    "tomato themed container": "[x: 0.65081156\ny: 0.48409894\n, x: 0.96370173\ny: 0.9540636\n]"
+  }
+}

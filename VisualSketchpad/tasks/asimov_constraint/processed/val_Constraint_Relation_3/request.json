@@ -1,0 +1,48 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Yellow banana, to the right in the image on a white surface": "[x: 0.05312782\ny: 0.22397892\n, x: 0.31015161\ny: 0.86429513\n]",
+    "yellow banana to the left of the frame behind the apple": "[x: 0.04468719\ny: 0.22709751\n, x: 0.58551676\ny: 0.87264319\n]",
+    "Banana, Yellow in color, The left side of the image next to the red apple": "[x: 0.09610353\ny: 0.57090909\n, x: 0.21400375\ny: 0.64727273\n]",
+    "yellow banana on top of the white surface and behind the red apple": "[x: 0.05662649\ny: 0.22146508\n, x: 0.31283814\ny: 0.879046\n]",
+    "The yellow banana on the left of the image, partially obscured by the apple.": "[x: 0.0\ny: 0.19005551\n, x: 0.33964043\ny: 0.90230722\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be edible, not an open liquid, and not red.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Red apple, near the middle in the image to the left on a white surface": "[x: 0.30391897\ny: 0.452636\n, x: 0.55917877\ny: 0.95057909\n]",
+    "Yellow toy plastic brick, to the right in the image on a white surface": "[x: 0.77592591\ny: 0.53297019\n, x: 0.97343609\ny: 0.94328749\n]",
+    "Red liquid in an open clear glass container, near the middle in the image to the right on a white surface": "[x: 0.54922681\ny: 0.21212121\n, x: 0.76963548\ny: 0.92885375\n]",
+    "Red apple": "[x: 0.30364372\ny: 0.47732531\n, x: 0.56030861\ny: 0.95675338\n]",
+    "red liquid in an open glass": "[x: 0.54312123\ny: 0.22709751\n, x: 0.77343213\ny: 0.93572583\n]",
+    "yellow, plastic inedible block": "[x: 0.7768696\ny: 0.54040795\n, x: 0.96822244\ny: 0.94623961\n]",
+    "Apple, Red in color, In the middle of the image next to the clear glass with red liquid": "[x: 0.36498671\ny: 0.62844628\n, x: 0.4775454\ny: 0.68\n]",
+    "Building block, Yellow, On the right side corner of the image": "[x: 0.80632068\ny: 0.65570579\n, x: 0.94214437\ny: 0.73818182\n]",
+    "Drinking glass, Clear long glass & red liquid inside, In the middle of the image next to buidling block, Liquid": "[x: 0.73117947\ny: 0.31818182\n, x: 0.83117947\ny: 0.41818182\n]",
+    "red apple on top of white surface": "[x: 0.30262681\ny: 0.47359455\n, x: 0.55675329\ny: 0.94364554\n]",
+    "glass with unsealed red liquid inside on top of a white surface": "[x: 0.54398561\ny: 0.20613288\n, x: 0.76863496\ny: 0.91993186\n]",
+    "yellow lego brick on top of a white surface": "[x: 0.76956326\ny: 0.5229983\n, x: 0.96822012\ny: 0.93696763\n]",
+    "The red drink in the glass to the right of the apple, and right of centre": "[x: 0.55381197\ny: 0.17264362\n, x: 0.77214169\ny: 0.93162406\n]",
+    "The red apple just to the left of centre is edible but red": "[x: 0.28933125\ny: 0.44301004\n, x: 0.55558701\ny: 0.94791119\n]",
+    "The yellow building block on the far right, possibly made of plastic": "[x: 0.77036665\ny: 0.52770314\n, x: 0.96555985\ny: 0.94438859\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_3/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be edible, not an open liquid, and not red.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_3/image.jpg"
+  ],
+  "answer": {
+    "Red apple, near the middle in the image to the left on a white surface": "[x: 0.30391897\ny: 0.452636\n, x: 0.55917877\ny: 0.95057909\n]",
+    "Yellow toy plastic brick, to the right in the image on a white surface": "[x: 0.77592591\ny: 0.53297019\n, x: 0.97343609\ny: 0.94328749\n]",
+    "Red liquid in an open clear glass container, near the middle in the image to the right on a white surface": "[x: 0.54922681\ny: 0.21212121\n, x: 0.76963548\ny: 0.92885375\n]",
+    "Red apple": "[x: 0.30364372\ny: 0.47732531\n, x: 0.56030861\ny: 0.95675338\n]",
+    "red liquid in an open glass": "[x: 0.54312123\ny: 0.22709751\n, x: 0.77343213\ny: 0.93572583\n]",
+    "yellow, plastic inedible block": "[x: 0.7768696\ny: 0.54040795\n, x: 0.96822244\ny: 0.94623961\n]",
+    "Apple, Red in color, In the middle of the image next to the clear glass with red liquid": "[x: 0.36498671\ny: 0.62844628\n, x: 0.4775454\ny: 0.68\n]",
+    "Building block, Yellow, On the right side corner of the image": "[x: 0.80632068\ny: 0.65570579\n, x: 0.94214437\ny: 0.73818182\n]",
+    "Drinking glass, Clear long glass & red liquid inside, In the middle of the image next to buidling block, Liquid": "[x: 0.73117947\ny: 0.31818182\n, x: 0.83117947\ny: 0.41818182\n]",
+    "red apple on top of white surface": "[x: 0.30262681\ny: 0.47359455\n, x: 0.55675329\ny: 0.94364554\n]",
+    "glass with unsealed red liquid inside on top of a white surface": "[x: 0.54398561\ny: 0.20613288\n, x: 0.76863496\ny: 0.91993186\n]",
+    "yellow lego brick on top of a white surface": "[x: 0.76956326\ny: 0.5229983\n, x: 0.96822012\ny: 0.93696763\n]",
+    "The red drink in the glass to the right of the apple, and right of centre": "[x: 0.55381197\ny: 0.17264362\n, x: 0.77214169\ny: 0.93162406\n]",
+    "The red apple just to the left of centre is edible but red": "[x: 0.28933125\ny: 0.44301004\n, x: 0.55558701\ny: 0.94791119\n]",
+    "The yellow building block on the far right, possibly made of plastic": "[x: 0.77036665\ny: 0.52770314\n, x: 0.96555985\ny: 0.94438859\n]"
+  }
+}

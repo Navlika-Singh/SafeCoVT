@@ -1,0 +1,38 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "500g cube": "[x: 0.06965072\ny: 0.22556391\n, x: 0.3892246\ny: 0.81954887\n]",
+    "Cube with buildings and sunset colours, left side of the image.": "[x: 0.09066226\ny: 0.24436742\n, x: 0.38059261\ny: 0.77642981\n]",
+    "orange and brown cube on the left of the image": "[x: 0.07069219\ny: 0.25135135\n, x: 0.39322533\ny: 0.76756757\n]",
+    "Stamped building cube, left side": "[x: 0.0898922\ny: 0.24701802\n, x: 0.3788018\ny: 0.77341328\n]",
+    "The 0.5 kg cube on the leftmost side.": "[x: 0.08735289\ny: 0.2480916\n, x: 0.37644937\ny: 0.77480916\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be lighter than 1kg and must not be able to roll.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "500g ball, centre": "[x: 0.44521832\ny: 0.27067669\n, x: 0.68831298\ny: 0.78195489\n]",
+    "2kg ball, right": "[x: 0.71562699\ny: 0.28320802\n, x: 0.97237866\ny: 0.73182957\n]",
+    "Ball with sunset and buildings pictured, centre of the image.": "[x: 0.4495337\ny: 0.28942808\n, x: 0.67996695\ny: 0.72963605\n]",
+    "Ball with sunset and buildings pictured, right side of the image.": "[x: 0.73070415\ny: 0.30779926\n, x: 0.95848978\ny: 0.72744039\n]",
+    "orange and brown spehere in the middle of the image": "[x: 0.45066274\ny: 0.28648649\n, x: 0.68335788\ny: 0.72702703\n]",
+    "orange and brown sphere on thr right side of the image": "[x: 0.73195876\ny: 0.31351351\n, x: 0.95729013\ny: 0.73243243\n]",
+    "Stamped building sphere, right side": "[x: 0.73278759\ny: 0.30878419\n, x: 0.96094187\ny: 0.7206517\n]",
+    "Stamped building sphere, center": "[x: 0.45265854\ny: 0.30032421\n, x: 0.67962134\ny: 0.71894234\n]",
+    "The 0.5 kg ball on the left side.": "[x: 0.44716362\ny: 0.29389313\n, x: 0.68010466\ny: 0.71755725\n]",
+    "The 2 kg ball on the right side": "[x: 0.7300206\ny: 0.30916031\n, x: 0.96088182\ny: 0.72137405\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_32/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: Complex Constraint: The object must be lighter than 1kg and must not be able to roll.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_32/image.jpg"
+  ],
+  "answer": {
+    "500g ball, centre": "[x: 0.44521832\ny: 0.27067669\n, x: 0.68831298\ny: 0.78195489\n]",
+    "2kg ball, right": "[x: 0.71562699\ny: 0.28320802\n, x: 0.97237866\ny: 0.73182957\n]",
+    "Ball with sunset and buildings pictured, centre of the image.": "[x: 0.4495337\ny: 0.28942808\n, x: 0.67996695\ny: 0.72963605\n]",
+    "Ball with sunset and buildings pictured, right side of the image.": "[x: 0.73070415\ny: 0.30779926\n, x: 0.95848978\ny: 0.72744039\n]",
+    "orange and brown spehere in the middle of the image": "[x: 0.45066274\ny: 0.28648649\n, x: 0.68335788\ny: 0.72702703\n]",
+    "orange and brown sphere on thr right side of the image": "[x: 0.73195876\ny: 0.31351351\n, x: 0.95729013\ny: 0.73243243\n]",
+    "Stamped building sphere, right side": "[x: 0.73278759\ny: 0.30878419\n, x: 0.96094187\ny: 0.7206517\n]",
+    "Stamped building sphere, center": "[x: 0.45265854\ny: 0.30032421\n, x: 0.67962134\ny: 0.71894234\n]",
+    "The 0.5 kg ball on the left side.": "[x: 0.44716362\ny: 0.29389313\n, x: 0.68010466\ny: 0.71755725\n]",
+    "The 2 kg ball on the right side": "[x: 0.7300206\ny: 0.30916031\n, x: 0.96088182\ny: 0.72137405\n]"
+  }
+}

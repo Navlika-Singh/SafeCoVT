@@ -1,0 +1,33 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "brick1": "[x: 0.1182845\ny: 0.67346939\n, x: 0.50953321\ny: 0.8961039\n]",
+    "central brick": "[x: 0.53076376\ny: 0.24860853\n, x: 0.75621199\ny: 0.91280148\n]",
+    "Red brick, bottom left": "[x: 0.12384351\ny: 0.64171123\n, x: 0.49828802\ny: 0.90641711\n]",
+    "Red brick, centre right": "[x: 0.52597069\ny: 0.24064171\n, x: 0.75471694\ny: 0.89304813\n]",
+    "orange brick on the left side of the image": "[x: 0.11539683\ny: 0.6494321\n, x: 0.50261732\ny: 0.89885167\n]",
+    "Grey concrete brick on the right side of the image ": "[x: 0.72571786\ny: 0.00941206\n, x: 1.0\ny: 0.8796622\n]",
+    "a red brick on the ground.": "[x: 0.11925923\ny: 0.64412811\n, x: 0.51000289\ny: 0.90925267\n]",
+    "a red brick leaning against the concrete block.": "[x: 0.5245467\ny: 0.19928826\n, x: 0.75433888\ny: 0.90213523\n]",
+    "A red brick resting at an angle on a concrete breeze block.": "[x: 0.52565681\ny: 0.26954778\n, x: 0.73279589\ny: 0.8610616\n]",
+    "A red brick flat on the ground": "[x: 0.49205744\ny: 0.36940299\n, x: 0.59205744\ny: 0.37313433\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a construction robot. I cannot remove any object that is currently acting as a structural support for another object.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "concrete block": "[x: 0.7320803\ny: 0.00357782\n, x: 1.0\ny: 0.88729875\n]",
+    "Grey, concrete, breeze block, right hand side.": "[x: 0.72747391\ny: 0.00507614\n, x: 1.0\ny: 0.8900706\n]",
+    "orange brick in the middle of the image": "[x: 0.49951358\ny: 0.22072412\n, x: 0.74742941\ny: 0.88064419\n]",
+    "a grey concrete block": "[x: 0.72935523\ny: 0.00343643\n, x: 0.99900133\ny: 0.88831615\n]",
+    "A concrete breeze block": "[x: 0.73930121\ny: 0.01041667\n, x: 1.0\ny: 0.89350646\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_64/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a construction robot. I cannot remove any object that is currently acting as a structural support for another object.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_64/image.jpg"
+  ],
+  "answer": {
+    "concrete block": "[x: 0.7320803\ny: 0.00357782\n, x: 1.0\ny: 0.88729875\n]",
+    "Grey, concrete, breeze block, right hand side.": "[x: 0.72747391\ny: 0.00507614\n, x: 1.0\ny: 0.8900706\n]",
+    "orange brick in the middle of the image": "[x: 0.49951358\ny: 0.22072412\n, x: 0.74742941\ny: 0.88064419\n]",
+    "a grey concrete block": "[x: 0.72935523\ny: 0.00343643\n, x: 0.99900133\ny: 0.88831615\n]",
+    "A concrete breeze block": "[x: 0.73930121\ny: 0.01041667\n, x: 1.0\ny: 0.89350646\n]"
+  }
+}

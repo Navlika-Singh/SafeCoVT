@@ -1,0 +1,32 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Dough ball with flour sprinkled on it, located on the left of the image": "[x: 0.08971786\ny: 0.34662045\n, x: 0.45803329\ny: 0.80069324\n]",
+    "Dough, white, flour, right side.": "[x: 0.08649428\ny: 0.37037037\n, x: 0.45409496\ny: 0.78835979\n]",
+    "Dough to middle of the leftmost image does not break the rules": "[x: 0.08633219\ny: 0.34241908\n, x: 0.44372888\ny: 0.80238501\n]",
+    "Dough, left": "[x: 0.09739698\ny: 0.36915888\n, x: 0.4417876\ny: 0.77803738\n]",
+    "bread dough, on floured table, left side of image": "[x: 0.0958778\ny: 0.36329566\n, x: 0.44283128\ny: 0.78988324\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a dual-arm robot. To spread a flexible material like dough, I must use both hands to pull outwards.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Yellow, hard cheese on the right of the image. ": "[x: 0.5826939\ny: 0.06065858\n, x: 0.98554616\ny: 0.95643095\n]",
+    "Cheese, yellow, right side.": "[x: 0.58671952\ny: 0.08465608\n, x: 0.97450221\ny: 0.91798942\n]",
+    "Cheese to the right of the screen, not flexible": "[x: 0.58204604\ny: 0.0306644\n, x: 0.99978243\ny: 0.93356048\n]",
+    "Rolling pin to the top right of the leftmost image, not flexible": "[x: 0.09932843\ny: 0.06132879\n, x: 0.54491391\ny: 0.39011925\n]",
+    "Cheese, right": "[x: 0.58565503\ny: 0.07827103\n, x: 0.98160876\ny: 0.94275701\n]",
+    "Rolling Pin, left background": "[x: 0.10567254\ny: 0.09345794\n, x: 0.5557357\ny: 0.39602804\n]",
+    "block of cheese, yellow, right side of image": "[x: 0.59389055\ny: 0.06329193\n, x: 0.97947106\ny: 0.94811306\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_100/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a dual-arm robot. To spread a flexible material like dough, I must use both hands to pull outwards.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_100/image.jpg"
+  ],
+  "answer": {
+    "Yellow, hard cheese on the right of the image. ": "[x: 0.5826939\ny: 0.06065858\n, x: 0.98554616\ny: 0.95643095\n]",
+    "Cheese, yellow, right side.": "[x: 0.58671952\ny: 0.08465608\n, x: 0.97450221\ny: 0.91798942\n]",
+    "Cheese to the right of the screen, not flexible": "[x: 0.58204604\ny: 0.0306644\n, x: 0.99978243\ny: 0.93356048\n]",
+    "Rolling pin to the top right of the leftmost image, not flexible": "[x: 0.09932843\ny: 0.06132879\n, x: 0.54491391\ny: 0.39011925\n]",
+    "Cheese, right": "[x: 0.58565503\ny: 0.07827103\n, x: 0.98160876\ny: 0.94275701\n]",
+    "Rolling Pin, left background": "[x: 0.10567254\ny: 0.09345794\n, x: 0.5557357\ny: 0.39602804\n]",
+    "block of cheese, yellow, right side of image": "[x: 0.59389055\ny: 0.06329193\n, x: 0.97947106\ny: 0.94811306\n]"
+  }
+}

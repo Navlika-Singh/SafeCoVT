@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Glass bottle, on the left": "[x: 0.00288823\ny: 0.00176678\n, x: 0.56898048\ny: 0.84628975\n]",
+    "bottle": "[x: 0.00206408\ny: 0.0\n, x: 0.56606476\ny: 0.84818354\n]",
+    "clear bottle container resting on bottom surface": "[x: 0.00271776\ny: 0.00249377\n, x: 0.5571409\ny: 0.81795511\n]",
+    "Clear Glass bottle top left on table laying down": "[x: 0.00309613\ny: 0.01136364\n, x: 0.56246107\ny: 0.82937758\n]",
+    "Clear, empty,  glass bottle, laid on its side, mouth opened towards center of image, placed on a flat, glossy, grained, surface (likely a table)": "[x: 0.0\ny: 0.0\n, x: 0.56296938\ny: 0.83609833\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector consists of two fingers that expand outwards. I can only lift objects by gripping them from the inside of a hollow opening.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Glass ornament, transparent, on the right": "[x: 0.62096855\ny: 0.36042403\n, x: 0.9733321\ny: 0.96113074\n]",
+    "stopper": "[x: 0.63367358\ny: 0.38257576\n, x: 0.97011917\ny: 0.90909091\n]",
+    "round clear semi-circle resting on bottom surface": "[x: 0.64187671\ny: 0.39917329\n, x: 0.94934192\ny: 0.93699531\n]",
+    "Clear Glass Ball bottom right on table": "[x: 0.63986583\ny: 0.3844697\n, x: 0.95426203\ny: 0.93993271\n]",
+    "Snow-globe shaped, glass ball, half-full with water, in right third of the image. ": "[x: 0.6367219\ny: 0.3840706\n, x: 0.95215259\ny: 0.94227595\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_93/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector consists of two fingers that expand outwards. I can only lift objects by gripping them from the inside of a hollow opening.<CONSTRAINTS END> \nPoint to all designated objects in this image.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_93/image.jpg"
+  ],
+  "answer": {
+    "Glass ornament, transparent, on the right": "[x: 0.62096855\ny: 0.36042403\n, x: 0.9733321\ny: 0.96113074\n]",
+    "stopper": "[x: 0.63367358\ny: 0.38257576\n, x: 0.97011917\ny: 0.90909091\n]",
+    "round clear semi-circle resting on bottom surface": "[x: 0.64187671\ny: 0.39917329\n, x: 0.94934192\ny: 0.93699531\n]",
+    "Clear Glass Ball bottom right on table": "[x: 0.63986583\ny: 0.3844697\n, x: 0.95426203\ny: 0.93993271\n]",
+    "Snow-globe shaped, glass ball, half-full with water, in right third of the image. ": "[x: 0.6367219\ny: 0.3840706\n, x: 0.95215259\ny: 0.94227595\n]"
+  }
+}

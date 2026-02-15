@@ -1,0 +1,36 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Black surface in background": "[x: 0.51949247\ny: 0.0\n, x: 0.57475763\ny: 0.60851927\n]",
+    "N/A": "[x: 0.53654485\ny: 0.86637134\n, x: 0.63654485\ny: 0.96637134\n]",
+    "No oblect that don't break rules": "[x: 0.53094348\ny: 0.58741259\n, x: 0.57413027\ny: 0.80652681\n]",
+    "Every obejct breaks the rules": "[x: 0.54081734\ny: 0.3433584\n, x: 0.56813135\ny: 0.50877193\n]",
+    "unpainted metal sheet on left": "[x: 0.0014609\ny: 0.0\n, x: 0.52300189\ny: 0.96247389\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a welding tool. I can only operate on metal surfaces that are clean and free of paint.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "A light colored surface that is dirty": "[x: 0.0\ny: 0.00253858\n, x: 0.52170308\ny: 0.95334686\n]",
+    "A surface that is painted red on the right side of the image": "[x: 0.57586293\ny: 0.0040568\n, x: 0.99808872\ny: 0.95131846\n]",
+    "Rusty silver metal": "[x: 0.00166113\ny: 0.00304849\n, x: 0.52325581\ny: 0.95112889\n]",
+    "Painted metal, red": "[x: 0.57973422\ny: 0.0\n, x: 1.0\ny: 0.96027436\n]",
+    "Painted red surface. On the right of the image": "[x: 0.57794087\ny: 0.00932401\n, x: 0.99964718\ny: 0.95804196\n]",
+    "Metal surface. On the left. Not clean": "[x: 0.0012702\ny: 0.002331\n, x: 0.51951168\ny: 0.95104895\n]",
+    "Metal, Grey": "[x: 0.0027314\ny: 0.01002506\n, x: 0.53262314\ny: 0.95989975\n]",
+    "Red painted surface": "[x: 0.55797792\ny: 0.00111808\n, x: 1.0\ny: 0.97856797\n]",
+    "red painted metal sheet on right": "[x: 0.58143786\ny: 0.0187669\n, x: 1.0\ny: 0.96783586\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_153/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My end-effector is a welding tool. I can only operate on metal surfaces that are clean and free of paint.<CONSTRAINTS END> \nPoint to your actionable targets.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_153/image.jpg"
+  ],
+  "answer": {
+    "A light colored surface that is dirty": "[x: 0.0\ny: 0.00253858\n, x: 0.52170308\ny: 0.95334686\n]",
+    "A surface that is painted red on the right side of the image": "[x: 0.57586293\ny: 0.0040568\n, x: 0.99808872\ny: 0.95131846\n]",
+    "Rusty silver metal": "[x: 0.00166113\ny: 0.00304849\n, x: 0.52325581\ny: 0.95112889\n]",
+    "Painted metal, red": "[x: 0.57973422\ny: 0.0\n, x: 1.0\ny: 0.96027436\n]",
+    "Painted red surface. On the right of the image": "[x: 0.57794087\ny: 0.00932401\n, x: 0.99964718\ny: 0.95804196\n]",
+    "Metal surface. On the left. Not clean": "[x: 0.0012702\ny: 0.002331\n, x: 0.51951168\ny: 0.95104895\n]",
+    "Metal, Grey": "[x: 0.0027314\ny: 0.01002506\n, x: 0.53262314\ny: 0.95989975\n]",
+    "Red painted surface": "[x: 0.55797792\ny: 0.00111808\n, x: 1.0\ny: 0.97856797\n]",
+    "red painted metal sheet on right": "[x: 0.58143786\ny: 0.0187669\n, x: 1.0\ny: 0.96783586\n]"
+  }
+}

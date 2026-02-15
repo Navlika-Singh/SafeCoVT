@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Metal pipe, right side": "[x: 0.57228682\ny: 0.0864486\n, x: 1.0\ny: 0.76168224\n]",
+    " Object \"B\" Lowe left side metal cylinder. Unsure if the pincer would be able to pick up 20m weight as no weight constrictions were given. ": "[x: 0.575763\ny: 0.1752026\n, x: 0.98995985\ny: 0.75202348\n]",
+    "A silver metal rod on the right": "[x: 0.58030348\ny: 0.0808612\n, x: 1.0\ny: 0.73829201\n]",
+    "Silver, rod, right side of image": "[x: 0.58038188\ny: 0.11573474\n, x: 1.0\ny: 0.72189349\n]",
+    "Silver rod, on the right": "[x: 0.57884429\ny: 0.10798393\n, x: 1.0\ny: 0.72854402\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a pincer. I cannot grasp a chain, as the links will slip.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Metal chain, left side": "[x: 0.0\ny: 0.0\n, x: 0.52899927\ny: 0.73364486\n]",
+    " Object \"A\" Metal Chain top right side the gripper is a pincer and  cannot grasp a chain as the link will slip. ": "[x: 0.01909418\ny: 0.09433986\n, x: 0.53023072\ny: 0.70081041\n]",
+    "A silver metal chain on the left": "[x: 0.0\ny: 0.0\n, x: 0.52317922\ny: 0.7180824\n]",
+    "Silver, chain, left side of image": "[x: 0.0\ny: 0.0\n, x: 0.52234369\ny: 0.72189349\n]",
+    "Silver chain, on the left": "[x: 0.0\ny: 0.0023175\n, x: 0.5247092\ny: 0.73117034\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_54/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a pincer. I cannot grasp a chain, as the links will slip.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_54/image.jpg"
+  ],
+  "answer": {
+    "Metal chain, left side": "[x: 0.0\ny: 0.0\n, x: 0.52899927\ny: 0.73364486\n]",
+    " Object \"A\" Metal Chain top right side the gripper is a pincer and  cannot grasp a chain as the link will slip. ": "[x: 0.01909418\ny: 0.09433986\n, x: 0.53023072\ny: 0.70081041\n]",
+    "A silver metal chain on the left": "[x: 0.0\ny: 0.0\n, x: 0.52317922\ny: 0.7180824\n]",
+    "Silver, chain, left side of image": "[x: 0.0\ny: 0.0\n, x: 0.52234369\ny: 0.72189349\n]",
+    "Silver chain, on the left": "[x: 0.0\ny: 0.0023175\n, x: 0.5247092\ny: 0.73117034\n]"
+  }
+}

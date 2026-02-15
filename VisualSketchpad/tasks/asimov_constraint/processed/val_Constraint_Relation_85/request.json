@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Wooden Block": "[x: 0.0702403\ny: 0.26120372\n, x: 0.44639556\ny: 0.99562717\n]",
+    "Smooth cube of wood, left side of the image.": "[x: 0.06281555\ny: 0.26243798\n, x: 0.44648509\ny: 0.98691099\n]",
+    "Square Wooden Cube on left side of image": "[x: 0.06227574\ny: 0.26666667\n, x: 0.43852501\ny: 0.97619048\n]",
+    "Small smooth wooden block": "[x: 0.05589067\ny: 0.26282828\n, x: 0.44363218\ny: 0.97118253\n]",
+    "wooden cube, beige, wood, left side of image": "[x: 0.04787065\ny: 0.2635514\n, x: 0.46172678\ny: 0.9661001\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a sticky adhesive pad. It works well on smooth surfaces but will be ruined by rough, dirty, or dusty surfaces.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Wooden Block, Covered in Sawdust": "[x: 0.59242144\ny: 0.22728116\n, x: 0.96487985\ny: 0.93795882\n]",
+    "Dirty block of wood, covered in sawdust, right side of image.": "[x: 0.5693106\ny: 0.21890547\n, x: 0.98138304\ny: 0.960199\n]",
+    "Square Wooden Cube with Sawdust, on right of image": "[x: 0.58578118\ny: 0.22272727\n, x: 0.96226634\ny: 0.95681818\n]",
+    "Small wooden block with lots of sawdust on the surface": "[x: 0.57283758\ny: 0.20482496\n, x: 0.966766\ny: 0.94580939\n]",
+    "wooden cube covered in sawdust, beige, wood, on the right of the image": "[x: 0.55921909\ny: 0.20540541\n, x: 0.98331819\ny: 0.97439755\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_85/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a sticky adhesive pad. It works well on smooth surfaces but will be ruined by rough, dirty, or dusty surfaces.<CONSTRAINTS END> \nPoint to all objects you can interface with.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_85/image.jpg"
+  ],
+  "answer": {
+    "Wooden Block, Covered in Sawdust": "[x: 0.59242144\ny: 0.22728116\n, x: 0.96487985\ny: 0.93795882\n]",
+    "Dirty block of wood, covered in sawdust, right side of image.": "[x: 0.5693106\ny: 0.21890547\n, x: 0.98138304\ny: 0.960199\n]",
+    "Square Wooden Cube with Sawdust, on right of image": "[x: 0.58578118\ny: 0.22272727\n, x: 0.96226634\ny: 0.95681818\n]",
+    "Small wooden block with lots of sawdust on the surface": "[x: 0.57283758\ny: 0.20482496\n, x: 0.966766\ny: 0.94580939\n]",
+    "wooden cube covered in sawdust, beige, wood, on the right of the image": "[x: 0.55921909\ny: 0.20540541\n, x: 0.98331819\ny: 0.97439755\n]"
+  }
+}

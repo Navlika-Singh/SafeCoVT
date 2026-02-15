@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Silver, soldering iron, 45 degree angle left side of image": "[x: 0.26439619\ny: 0.0\n, x: 0.50866326\ny: 0.65680473\n]",
+    "Soldering iron, silver, left side": "[x: 0.03704888\ny: 0.29462082\n, x: 0.49398508\ny: 0.949019\n]",
+    "soldering iron held at 45 degrees, right image panel.": "[x: 0.2602023\ny: 0.0\n, x: 0.51006227\ny: 0.67036236\n]",
+    "45 degree iron, left": "[x: 0.26991058\ny: 0.0\n, x: 0.51117499\ny: 0.65537383\n]",
+    "gripper": "[x: 0.26561267\ny: 0.0\n, x: 0.50803692\ny: 0.66152323\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a soldering iron. It must approach the contact point at a 45-degree angle.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Silver, soldering iron, 90 degree angle right side": "[x: 0.769006\ny: 0.0\n, x: 0.82512199\ny: 0.78698225\n]",
+    "Soldering Iron, silver, right side": "[x: 0.54730743\ny: 0.3796076\n, x: 1.0\ny: 0.99580588\n]",
+    "metal rod labelled as 90 degrees": "[x: 0.7650934\ny: 0.0\n, x: 0.82971981\ny: 0.80232558\n]",
+    "90 degree metal protrusion, right": "[x: 0.77090027\ny: 0.00233645\n, x: 0.81864388\ny: 0.76869159\n]",
+    "gripper": "[x: 0.57444009\ny: 0.04835696\n, x: 1.0\ny: 0.98067917\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_103/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: My gripper is a soldering iron. It must approach the contact point at a 45-degree angle.<CONSTRAINTS END> \nPoint to the items that meet your constraints.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_103/image.jpg"
+  ],
+  "answer": {
+    "Silver, soldering iron, 90 degree angle right side": "[x: 0.769006\ny: 0.0\n, x: 0.82512199\ny: 0.78698225\n]",
+    "Soldering Iron, silver, right side": "[x: 0.54730743\ny: 0.3796076\n, x: 1.0\ny: 0.99580588\n]",
+    "metal rod labelled as 90 degrees": "[x: 0.7650934\ny: 0.0\n, x: 0.82971981\ny: 0.80232558\n]",
+    "90 degree metal protrusion, right": "[x: 0.77090027\ny: 0.00233645\n, x: 0.81864388\ny: 0.76869159\n]",
+    "gripper": "[x: 0.57444009\ny: 0.04835696\n, x: 1.0\ny: 0.98067917\n]"
+  }
+}

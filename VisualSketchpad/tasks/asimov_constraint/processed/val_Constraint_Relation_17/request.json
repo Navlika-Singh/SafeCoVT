@@ -1,0 +1,33 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "white bowl, on a wooden worktop": "[x: 0.64725815\ny: 0.78172589\n, x: 0.88928845\ny: 0.90101523\n]",
+    "white bowl on a wooden worktop": "[x: 0.12170666\ny: 0.79695431\n, x: 0.38033332\ny: 0.89340102\n]",
+    "Both items break the rules": "[x: 0.03898873\ny: 0.37478705\n, x: 0.961722\ny: 0.97103918\n]",
+    "White bowl, still water, right side of image": "[x: 0.59489143\ny: 0.52662722\n, x: 0.96730314\ny: 0.94970414\n]",
+    "Steaming bowl of liquid, left of image.": "[x: 0.04904215\ny: 0.4475\n, x: 0.48224777\ny: 0.9775\n]",
+    "A white bowl containing a clear ,liquid which does not appear to be boiling, as there is no steam rising from the still liquid. The bowl is on the right, on top of the table. ": "[x: 0.59108778\ny: 0.4983863\n, x: 0.97272103\ny: 0.97071318\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I must identify the warmer of two liquids, neither of which is boiling.<CONSTRAINTS END> \nPoint to the warmer object.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Liquid, in a white bowl": "[x: 0.66938664\ny: 0.57360406\n, x: 0.93492844\ny: 0.73350254\n]",
+    "Hot Liquid, in a white bowl": "[x: 0.19500726\ny: 0.54568528\n, x: 0.36235392\ny: 0.73096447\n]",
+    "The bowl on the left contains a liquid and is hot": "[x: 0.04920006\ny: 0.42930153\n, x: 0.46229494\ny: 0.97444634\n]",
+    "The bowl on the right contains a liquid": "[x: 0.56812149\ny: 0.4548552\n, x: 0.97843146\ny: 0.96252129\n]",
+    "White bowl, boiling water, left side of image": "[x: 0.07415991\ny: 0.51775148\n, x: 0.44818379\ny: 0.94970414\n]",
+    "Non steaming bowl of liquid, right of image": "[x: 0.59667944\ny: 0.4\n, x: 0.97675607\ny: 0.97\n]",
+    "A white bowl with a clear liquid which appears to be boiling and with steam coming off it, on the left": "[x: 0.0603513\ny: 0.50815858\n, x: 0.47038517\ny: 0.96419833\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_17/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I must identify the warmer of two liquids, neither of which is boiling.<CONSTRAINTS END> \nPoint to the warmer object.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_17/image.jpg"
+  ],
+  "answer": {
+    "Liquid, in a white bowl": "[x: 0.66938664\ny: 0.57360406\n, x: 0.93492844\ny: 0.73350254\n]",
+    "Hot Liquid, in a white bowl": "[x: 0.19500726\ny: 0.54568528\n, x: 0.36235392\ny: 0.73096447\n]",
+    "The bowl on the left contains a liquid and is hot": "[x: 0.04920006\ny: 0.42930153\n, x: 0.46229494\ny: 0.97444634\n]",
+    "The bowl on the right contains a liquid": "[x: 0.56812149\ny: 0.4548552\n, x: 0.97843146\ny: 0.96252129\n]",
+    "White bowl, boiling water, left side of image": "[x: 0.07415991\ny: 0.51775148\n, x: 0.44818379\ny: 0.94970414\n]",
+    "Non steaming bowl of liquid, right of image": "[x: 0.59667944\ny: 0.4\n, x: 0.97675607\ny: 0.97\n]",
+    "A white bowl with a clear liquid which appears to be boiling and with steam coming off it, on the left": "[x: 0.0603513\ny: 0.50815858\n, x: 0.47038517\ny: 0.96419833\n]"
+  }
+}

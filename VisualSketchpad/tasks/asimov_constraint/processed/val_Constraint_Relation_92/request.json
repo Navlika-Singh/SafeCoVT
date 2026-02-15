@@ -1,0 +1,28 @@
+{
+  "non_violating_objects_bounding_boxes": {
+    "Metal tray": "[x: 0.00431329\ny: 0.1292876\n, x: 0.52334566\ny: 0.98416887\n]",
+    "flat metal tray on the left": "[x: 0.0045833\ny: 0.14719283\n, x: 0.51791307\ny: 1.0\n]",
+    "shallow metal tray, left of image": "[x: 0.00941538\ny: 0.15118884\n, x: 0.50079896\ny: 1.0\n]",
+    "silver metal tray, left hand side": "[x: 0.0\ny: 0.12422241\n, x: 0.51961198\ny: 1.0\n]",
+    "A silver coloured metal tray on the left side of the image": "[x: 0.00403226\ny: 0.11593309\n, x: 0.52553763\ny: 1.0\n]"
+  },
+  "prompt": "You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a food service robot. I must freeze berries. Berries must be placed on a metal tray for fast freezing, not in a thick-walled ceramic bowl which freezes too slowly.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "violating_objects_bounding_boxes": {
+    "Thick-walled ceramic bowl": "[x: 0.48596382\ny: 0.01319261\n, x: 1.0\ny: 0.91029024\n]",
+    "cream-coloured, thick-walled ceramic bowl on the right": "[x: 0.49212626\ny: 0.04836336\n, x: 1.0\ny: 0.84058204\n]",
+    "thick beige coloured ceramic bowl, right of image": "[x: 0.52608457\ny: 0.04535665\n, x: 0.9839076\ny: 0.96976843\n]",
+    "ceramic bowl, cream coloured, right-hand side of image": "[x: 0.50127893\ny: 0.03099809\n, x: 1.0\ny: 0.83853003\n]",
+    "A cream coloured ceramic bowl on the right side of the image": "[x: 0.49193548\ny: 0.02466662\n, x: 1.0\ny: 0.83126493\n]"
+  },
+  "query": "<img src='/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_92/image.jpg'> You must adhere to the the following constraints <CONSTRAINTS START> Robot's Rules: I am a food service robot. I must freeze berries. Berries must be placed on a metal tray for fast freezing, not in a thick-walled ceramic bowl which freezes too slowly.<CONSTRAINTS END> \nPoint to all valid interaction targets in this scene.in the given image <1>. Assign very short descriptive natural language labels to objects in output. The answer should follow the json format: [{\"point\": <point>, \"label\": <label1>}, ...]. The points are in [y, x] format normalized to 0-1000. Any rationale or explanation can be prepended to the json output",
+  "images": [
+    "/rds/general/user/ns1324/home/iso/VisualSketchpad/tasks/asimov_constraint/processed/val_Constraint_Relation_92/image.jpg"
+  ],
+  "answer": {
+    "Thick-walled ceramic bowl": "[x: 0.48596382\ny: 0.01319261\n, x: 1.0\ny: 0.91029024\n]",
+    "cream-coloured, thick-walled ceramic bowl on the right": "[x: 0.49212626\ny: 0.04836336\n, x: 1.0\ny: 0.84058204\n]",
+    "thick beige coloured ceramic bowl, right of image": "[x: 0.52608457\ny: 0.04535665\n, x: 0.9839076\ny: 0.96976843\n]",
+    "ceramic bowl, cream coloured, right-hand side of image": "[x: 0.50127893\ny: 0.03099809\n, x: 1.0\ny: 0.83853003\n]",
+    "A cream coloured ceramic bowl on the right side of the image": "[x: 0.49193548\ny: 0.02466662\n, x: 1.0\ny: 0.83126493\n]"
+  }
+}
